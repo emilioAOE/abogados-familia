@@ -1,65 +1,111 @@
-import Image from "next/image";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import Services from "@/components/Services";
+import Method from "@/components/Method";
+import FAQ from "@/components/FAQ";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  name: "Abogados Familia",
+  description:
+    "Abogado especialista en Derecho de Familia en Chile. Divorcio, pensión de alimentos, cuidado personal, mediación familiar y violencia intrafamiliar.",
+  url: "https://abogados-familia.vercel.app",
+  telephone: "+56934592571",
+  areaServed: {
+    "@type": "Country",
+    name: "Chile",
+  },
+  serviceType: [
+    "Derecho de Familia",
+    "Divorcio",
+    "Pensión de Alimentos",
+    "Cuidado Personal de Hijos",
+    "Violencia Intrafamiliar",
+    "Mediación Familiar",
+    "Adopción",
+    "Régimen de Visitas",
+  ],
+  priceRange: "Consulta inicial gratuita",
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    opens: "09:00",
+    closes: "18:00",
+  },
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "¿Cuánto demora un juicio de divorcio en Chile?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Un divorcio de mutuo acuerdo puede tomar entre 2 a 4 meses. Un divorcio unilateral por cese de convivencia puede demorar entre 6 meses a 1 año.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "¿Cómo se calcula la pensión de alimentos en Chile?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Se calcula considerando las necesidades del alimentario y la capacidad económica del alimentante. El mínimo legal es el 40% de un ingreso mínimo por hijo.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "¿Es obligatoria la mediación familiar en Chile?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Sí, es requisito previo obligatorio para demandas de alimentos, cuidado personal y relación directa y regular. Se exceptúan casos de violencia intrafamiliar.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "¿Cuánto cuesta un abogado de familia en Chile?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Los honorarios varían según la complejidad del caso. Ofrecemos consulta inicial gratuita y planes de pago flexibles.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "¿Qué pasa si no me pagan la pensión de alimentos?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Puedes solicitar arresto nocturno, retención de sueldo, suspensión de licencia de conducir, arraigo nacional y liquidación de bienes del deudor.",
+      },
+    },
+  ],
+};
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <Header />
+      <main>
+        <Hero />
+        <Services />
+        <Method />
+        <FAQ />
+        <Contact />
       </main>
-    </div>
+      <Footer />
+      <WhatsAppButton />
+    </>
   );
 }
