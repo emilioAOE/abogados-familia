@@ -6,35 +6,65 @@ import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import {
+  SITE_URL,
+  SITE_NAME,
+  SITE_DESCRIPTION,
+  PHONE_E164,
+  AREAS_SERVED,
+} from "@/lib/site";
+
+const SERVICE_TYPES = [
+  "Divorcio",
+  "Pensión de Alimentos",
+  "Cuidado Personal de Hijos",
+  "Régimen de Visitas",
+  "Violencia Intrafamiliar",
+  "Adopción",
+  "Mediación Familiar",
+  "Liquidación de Sociedad Conyugal",
+  "Acuerdo de Unión Civil",
+  "Reconocimiento de Paternidad",
+];
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LegalService",
-  name: "Abogados Familia",
-  description:
-    "Abogado especialista en Derecho de Familia en Chile. Divorcio, pensión de alimentos, cuidado personal, mediación familiar y violencia intrafamiliar.",
-  url: "https://abogados-familia.vercel.app",
-  telephone: "+56934592571",
-  areaServed: {
-    "@type": "Country",
-    name: "Chile",
-  },
-  serviceType: [
-    "Derecho de Familia",
-    "Divorcio",
-    "Pensión de Alimentos",
-    "Cuidado Personal de Hijos",
-    "Violencia Intrafamiliar",
-    "Mediación Familiar",
-    "Adopción",
-    "Régimen de Visitas",
+  "@id": `${SITE_URL}/#legalservice`,
+  name: SITE_NAME,
+  description: SITE_DESCRIPTION,
+  url: SITE_URL,
+  telephone: PHONE_E164,
+  image: `${SITE_URL}/opengraph-image`,
+  logo: `${SITE_URL}/icon`,
+  priceRange: "$$",
+  currenciesAccepted: "CLP",
+  knowsLanguage: "es-CL",
+  areaServed: [
+    { "@type": "Country", name: "Chile" },
+    ...AREAS_SERVED.map((city) => ({ "@type": "City", name: city })),
   ],
-  priceRange: "Consulta inicial gratuita",
+  serviceType: ["Derecho de Familia", ...SERVICE_TYPES],
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: PHONE_E164,
+    contactType: "customer service",
+    areaServed: "CL",
+    availableLanguage: ["Spanish"],
+  },
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
     dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
     opens: "09:00",
     closes: "18:00",
+  },
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Servicios de Derecho de Familia",
+    itemListElement: SERVICE_TYPES.map((service) => ({
+      "@type": "Offer",
+      itemOffered: { "@type": "Service", name: service },
+    })),
   },
 };
 

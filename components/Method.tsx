@@ -1,5 +1,4 @@
-const WHATSAPP_URL =
-  "https://wa.me/56934592571?text=Hola%2C%20necesito%20asesor%C3%ADa%20legal%20en%20Derecho%20de%20Familia";
+import { WHATSAPP_URL } from "@/lib/site";
 
 const steps = [
   {

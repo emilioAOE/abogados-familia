@@ -1,9 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-
-const WHATSAPP_URL =
-  "https://wa.me/56934592571?text=Hola%2C%20necesito%20asesor%C3%ADa%20legal%20en%20Derecho%20de%20Familia";
+import { WHATSAPP_URL } from "@/lib/site";
 
 const GOOGLE_SHEETS_URL =
   "https://script.google.com/macros/s/AKfycbzyUkJeHXdgFZ62_3luzUoD2fkZjJZMewKiLT_R-sF2M20vDeWT1-ox5Y0vLltw-wM8Ug/exec";
@@ -166,9 +164,10 @@ export default function Contact() {
                     id="tipoConsulta"
                     name="tipoConsulta"
                     required
+                    defaultValue=""
                     className={inputClass}
                   >
-                    <option value="" disabled selected>
+                    <option value="" disabled>
                       Selecciona una opción
                     </option>
                     {TIPOS_CONSULTA.map((tipo) => (
