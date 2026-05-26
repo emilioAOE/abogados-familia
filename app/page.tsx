@@ -85,7 +85,7 @@ const faqJsonLd = {
       name: "¿Cómo se calcula la pensión de alimentos en Chile?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Se calcula considerando las necesidades del alimentario y la capacidad económica del alimentante. El mínimo legal es el 40% de un ingreso mínimo por hijo.",
+        text: "Se calcula considerando las necesidades del hijo/a y la capacidad económica del alimentante. El mínimo legal es el 40% de un ingreso mínimo si hay un solo hijo y el 30% por cada hijo si hay varios; el máximo es el 50% de los ingresos del alimentante (Art. 3 Ley 14.908).",
       },
     },
     {
@@ -109,7 +109,7 @@ const faqJsonLd = {
       name: "¿Qué pasa si no me pagan la pensión de alimentos?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Puedes solicitar arresto nocturno, retención de sueldo, suspensión de licencia de conducir, arraigo nacional y liquidación de bienes del deudor.",
+        text: "La Ley 21.389 creó el Registro Nacional de Deudores de Pensiones de Alimentos: niega pasaporte y licencia de conducir, retiene la devolución de impuestos y el 50% de los créditos bancarios (≥ 50 UF), bloquea la compraventa de vehículos e inmuebles e inhabilita para bonos del Estado. A esto se suman arresto nocturno, retención de sueldo, arraigo nacional y pago con la indemnización por años de servicio.",
       },
     },
   ],

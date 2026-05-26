@@ -19,12 +19,21 @@
 ## Datos clave (Chile)
 - Divorcio de mutuo acuerdo: aprox. 2 a 4 meses. Unilateral por cese de
   convivencia: aprox. 6 meses a 1 año.
-- Pensión de alimentos: el mínimo legal es el 40% de un ingreso mínimo por hijo;
-  el monto considera necesidades del alimentario y capacidad del alimentante.
+- Pensión de alimentos (Art. 3 Ley 14.908): el mínimo legal es el 40% de un
+  ingreso mínimo cuando hay un solo hijo y el 30% por cada hijo cuando hay
+  varios. El máximo no puede superar el 50% de los ingresos del alimentante,
+  salvo razones fundadas. Cubre alimentación, educación, salud, vivienda,
+  recreación, vestuario, movilización y servicios básicos.
 - La mediación familiar es requisito previo obligatorio para demandas de
   alimentos, cuidado personal y relación directa y regular (salvo casos de VIF).
-- Incumplimiento de pensión: arresto nocturno, retención de sueldo, suspensión de
-  licencia de conducir, arraigo nacional y liquidación de bienes.
+- Incumplimiento de pensión (Ley 21.389): el deudor queda inscrito en el
+  Registro Nacional de Deudores de Pensiones de Alimentos. Consecuencias:
+  negación de pasaporte y licencia de conducir, retención de la devolución de
+  impuestos, retención del 50% de créditos bancarios (≥ 50 UF), bloqueo de la
+  inscripción de compraventa de vehículos e inmuebles e inhabilidad para
+  bonos del Estado. Medidas tradicionales que se suman: arresto nocturno,
+  retención de sueldo, arraigo nacional y pago con la indemnización por años
+  de servicio.
 
 ## Contacto
 - WhatsApp: +56 9 3459 2571

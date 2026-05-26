@@ -11,7 +11,7 @@ const faqs = [
   {
     question: "¿Cómo se calcula la pensión de alimentos en Chile?",
     answer:
-      "La pensión de alimentos se calcula considerando las necesidades del alimentario (hijo/a) y la capacidad económica del alimentante. El mínimo legal es el 40% de un ingreso mínimo por hijo. El juez considera gastos de alimentación, educación, salud, vivienda y recreación.",
+      "La pensión se calcula considerando las necesidades del hijo/a (alimentación, educación, salud, vivienda, recreación, vestuario, movilización y servicios básicos) y la capacidad económica del alimentante. El mínimo legal es el 40% de un ingreso mínimo cuando hay un solo hijo y el 30% por cada hijo cuando hay varios. El máximo no puede superar el 50% de los ingresos del alimentante, salvo razones fundadas (Art. 3 Ley 14.908).",
   },
   {
     question: "¿Qué requisitos necesito para obtener el cuidado personal de mis hijos?",
@@ -31,7 +31,7 @@ const faqs = [
   {
     question: "¿Qué pasa si no me pagan la pensión de alimentos?",
     answer:
-      "Puedes solicitar el arresto nocturno del deudor, la retención de su sueldo por parte del empleador, la suspensión de su licencia de conducir, arraigo nacional (impedimento de salir del país) y la liquidación de bienes. La ley chilena tiene herramientas efectivas para hacer cumplir la pensión.",
+      "La Ley 21.389 creó el Registro Nacional de Deudores de Pensiones de Alimentos. Estar inscrito implica: el Registro Civil no tramita pasaporte y las municipalidades no otorgan ni renuevan la licencia de conducir; retención de la devolución de impuestos; retención del 50% de los créditos bancarios desde 50 UF; bloqueo de la inscripción de compraventa de vehículos o inmuebles; e inhabilidad para recibir bonos y beneficios económicos del Estado. A esto se suman las medidas tradicionales: arresto nocturno del deudor, retención de sueldo, arraigo nacional y pago con la indemnización por años de servicio si es despedido.",
   },
   {
     question: "¿Cómo solicitar una medida de protección por violencia intrafamiliar?",
