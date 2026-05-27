@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { WHATSAPP_URL } from "@/lib/site";
+import { WHATSAPP_URL, PHONE_DISPLAY } from "@/lib/site";
 
 const GOOGLE_SHEETS_URL =
   "https://script.google.com/macros/s/AKfycbzyUkJeHXdgFZ62_3luzUoD2fkZjJZMewKiLT_R-sF2M20vDeWT1-ox5Y0vLltw-wM8Ug/exec";
@@ -246,7 +246,7 @@ export default function Contact() {
                     />
                   ),
                   title: "WhatsApp",
-                  detail: "+56 9 3459 2571",
+                  detail: PHONE_DISPLAY,
                 },
                 {
                   icon: (

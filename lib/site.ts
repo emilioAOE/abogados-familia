@@ -8,8 +8,8 @@ export const SITE_DESCRIPTION =
   "Abogado especialista en Derecho de Familia en Chile. Divorcio, pensión de alimentos, cuidado personal, mediación familiar y violencia intrafamiliar. Primera consulta gratuita por WhatsApp.";
 
 // Teléfono / WhatsApp
-export const PHONE_E164 = "+56934592571";
-export const PHONE_DISPLAY = "+56 9 3459 2571";
+export const PHONE_E164 = "+56994495238";
+export const PHONE_DISPLAY = "+56 9 9449 5238";
 
 const WHATSAPP_MESSAGE =
   "Hola, necesito asesoría legal en Derecho de Familia";
