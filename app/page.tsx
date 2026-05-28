@@ -112,6 +112,30 @@ const faqJsonLd = {
         text: "La Ley 21.389 creó el Registro Nacional de Deudores de Pensiones de Alimentos: niega pasaporte y licencia de conducir, retiene la devolución de impuestos y el 50% de los créditos bancarios (≥ 50 UF), bloquea la compraventa de vehículos e inmuebles e inhabilita para bonos del Estado. A esto se suman arresto nocturno, retención de sueldo, arraigo nacional y pago con la indemnización por años de servicio.",
       },
     },
+    {
+      "@type": "Question",
+      name: "¿Qué requisitos necesito para obtener el cuidado personal de mis hijos?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Debes demostrar que el cuidado personal bajo tu responsabilidad es lo mejor para el interés superior del niño. Se evalúan factores como la vinculación afectiva, aptitud de los padres, contribución a la mantención del hogar, estabilidad familiar y la opinión del niño según su edad y madurez.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "¿Cómo solicitar una medida de protección por violencia intrafamiliar?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Puedes denunciar en Carabineros, PDI o directamente en el Tribunal de Familia. El tribunal puede decretar medidas cautelares de forma inmediata: prohibición de acercamiento, abandono del hogar por el agresor y entrega de pertenencias. La mediación familiar no es exigible en casos de violencia intrafamiliar.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "¿Se puede modificar el régimen de visitas en Chile?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Sí, el régimen de relación directa y regular puede modificarse cuando cambian las circunstancias. Puedes solicitar ampliación o restricción de visitas ante el Tribunal de Familia. Se prioriza siempre el interés superior del niño y su derecho a mantener relación con ambos padres.",
+      },
+    },
   ],
 };
 

@@ -68,7 +68,7 @@ export default function Hero() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight mb-6">
               Asesoría Legal Especializada en{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-accent-light">
-                Derecho de Familia
+                Derecho de Familia en Chile
               </span>
             </h1>
 
@@ -139,47 +139,108 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right column: Stats / Trust signals */}
+          {/* Right column: Compromisos / Trust signals */}
           <div className="hidden lg:flex flex-col items-center justify-center gap-6">
             <div className="grid grid-cols-2 gap-4 w-full max-w-sm">
               {[
-                { number: "500+", label: "Casos resueltos" },
-                { number: "98%", label: "Clientes satisfechos" },
-                { number: "15+", label: "Años de experiencia" },
-                { number: "24h", label: "Tiempo de respuesta" },
-              ].map((stat) => (
+                {
+                  icon: (
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
+                    />
+                  ),
+                  title: "Solo Familia",
+                  label: "Especialistas exclusivos",
+                },
+                {
+                  icon: (
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  ),
+                  title: "1ª Consulta Gratis",
+                  label: "Sin costo ni compromiso",
+                },
+                {
+                  icon: (
+                    <>
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                      />
+                    </>
+                  ),
+                  title: "Todo Chile",
+                  label: "Presencial y remota",
+                },
+                {
+                  icon: (
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  ),
+                  title: "Resp. en 24 hrs",
+                  label: "Atención oportuna",
+                },
+              ].map((item) => (
                 <div
-                  key={stat.label}
-                  className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 text-center hover:bg-white/10 transition-colors"
+                  key={item.title}
+                  className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 text-center hover:bg-white/10 transition-colors"
                 >
-                  <div className="text-3xl font-bold text-accent mb-1">
-                    {stat.number}
+                  <div className="w-10 h-10 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <svg
+                      className="w-5 h-5 text-accent"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={1.5}
+                    >
+                      {item.icon}
+                    </svg>
                   </div>
-                  <div className="text-sm text-blue-200/70">{stat.label}</div>
+                  <div className="text-sm font-bold text-white mb-1">
+                    {item.title}
+                  </div>
+                  <div className="text-xs text-blue-200/70">{item.label}</div>
                 </div>
               ))}
             </div>
 
-            {/* Trust bar */}
+            {/* Confidencialidad */}
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl px-6 py-4 flex items-center gap-4 w-full max-w-sm">
-              <div className="flex -space-x-2">
-                {[
-                  "bg-accent",
-                  "bg-blue-400",
-                  "bg-green-400",
-                  "bg-purple-400",
-                ].map((color, i) => (
-                  <div
-                    key={i}
-                    className={`w-8 h-8 ${color} rounded-full border-2 border-primary flex items-center justify-center text-xs font-bold text-white`}
-                  >
-                    {["JP", "MC", "RL", "AS"][i]}
-                  </div>
-                ))}
+              <div className="w-10 h-10 bg-accent/20 rounded-full flex items-center justify-center shrink-0">
+                <svg
+                  className="w-5 h-5 text-accent"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={1.5}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
+                  />
+                </svg>
               </div>
               <div className="text-sm text-blue-200/70">
-                <span className="text-white font-semibold">+200 personas</span>{" "}
-                nos contactaron este mes
+                <span className="text-white font-semibold">
+                  Confidencialidad garantizada
+                </span>
+                <br />
+                Tu caso está protegido por el secreto profesional
               </div>
             </div>
           </div>

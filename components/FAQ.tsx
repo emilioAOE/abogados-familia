@@ -56,7 +56,7 @@ export default function FAQ() {
             Preguntas Frecuentes
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-primary mt-2 mb-4">
-            Resolvemos tus Dudas
+            Preguntas Frecuentes sobre Derecho de Familia en Chile
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             Las consultas más comunes sobre Derecho de Familia en Chile.
