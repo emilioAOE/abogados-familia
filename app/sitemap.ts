@@ -1,8 +1,8 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/site";
 
-// Sitio de una sola página: los buscadores ignoran los fragmentos (#seccion),
-// por lo que el sitemap solo lista la URL canónica.
+// Los buscadores ignoran los fragmentos (#seccion), por lo que la landing
+// se lista una sola vez. Se incluye además la página de privacidad.
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
@@ -10,6 +10,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
+    },
+    {
+      url: `${SITE_URL}/privacidad`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.3,
     },
   ];
 }

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -24,10 +26,18 @@ export default function Footer() {
             <span className="text-white font-semibold">Abogados Familia</span>
           </div>
 
-          <p className="text-blue-300 text-sm text-center">
-            &copy; {currentYear} Abogados Familia. Todos los derechos
-            reservados.
-          </p>
+          <div className="flex flex-col items-center gap-1">
+            <p className="text-blue-300 text-sm text-center">
+              &copy; {currentYear} Abogados Familia. Todos los derechos
+              reservados.
+            </p>
+            <Link
+              href="/privacidad"
+              className="text-blue-300 text-sm underline hover:text-white transition-colors"
+            >
+              Política de privacidad
+            </Link>
+          </div>
 
           <p className="text-blue-400 text-xs text-center max-w-md">
             La información contenida en este sitio es de carácter general y no

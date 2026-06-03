@@ -1,6 +1,7 @@
 // Configuración central del sitio. Cambia estos valores en un solo lugar.
-// IMPORTANTE: reemplaza SITE_URL por el dominio real cuando se publique.
-export const SITE_URL = "https://abogados-familia.vercel.app";
+// Dominio canónico: el apex (firmafamilia.cl) redirige a www en Vercel,
+// por lo que la URL canónica que indexan los buscadores debe ser la de www.
+export const SITE_URL = "https://www.firmafamilia.cl";
 
 export const SITE_NAME = "Abogados Familia";
 
