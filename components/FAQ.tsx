@@ -11,7 +11,7 @@ const faqs = [
   {
     question: "¿Cómo se calcula la pensión de alimentos en Chile?",
     answer:
-      "La pensión se calcula considerando las necesidades del hijo/a (alimentación, educación, salud, vivienda, recreación, vestuario, movilización y servicios básicos) y la capacidad económica del alimentante. El mínimo legal es el 40% de un ingreso mínimo cuando hay un solo hijo y el 30% por cada hijo cuando hay varios. El máximo no puede superar el 50% de los ingresos del alimentante, salvo razones fundadas (Art. 3 Ley 14.908).",
+      "La pensión se calcula considerando las necesidades del hijo/a (alimentación, educación, salud, vivienda, recreación, vestuario, movilización y servicios básicos) y la capacidad económica del alimentante. El mínimo legal es el 40% de un ingreso mínimo cuando hay un solo hijo y el 30% por cada hijo cuando hay varios; este mínimo solo puede rebajarse si el alimentante acredita que carece de los medios para pagarlo. En ningún caso la pensión puede superar el 50% de las rentas del alimentante (Arts. 3 y 7, Ley 14.908).",
   },
   {
     question: "¿Qué requisitos necesito para obtener el cuidado personal de mis hijos?",
