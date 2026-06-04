@@ -8,12 +8,14 @@ export const SITE_NAME = "Abogados Familia";
 export const SITE_DESCRIPTION =
   "Abogado especialista en Derecho de Familia en Chile. Divorcio, pensión de alimentos, cuidado personal, mediación familiar y violencia intrafamiliar. Primera consulta gratuita por WhatsApp.";
 
-// Teléfono / WhatsApp
-export const PHONE_E164 = "+56994495238";
-export const PHONE_DISPLAY = "+56 9 9449 5238";
+// Teléfono / WhatsApp (número de contacto compartido del estudio)
+export const PHONE_E164 = "+56957022390";
+export const PHONE_DISPLAY = "+56 9 5702 2390";
 
+// El "(ref: abogados-familia)" lo lee el hub de analytics para el ORIGEN del lead
+// (el número de WhatsApp es compartido entre sitios; el origen viaja en el texto).
 const WHATSAPP_MESSAGE =
-  "Hola, necesito asesoría legal en Derecho de Familia";
+  "Hola, necesito asesoría legal en Derecho de Familia (ref: abogados-familia)";
 
 export const WHATSAPP_URL = `https://wa.me/${PHONE_E164.replace(
   "+",
