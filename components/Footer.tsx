@@ -31,12 +31,20 @@ export default function Footer() {
               &copy; {currentYear} Abogados Familia. Todos los derechos
               reservados.
             </p>
-            <Link
-              href="/privacidad"
-              className="text-blue-300 text-sm underline hover:text-white transition-colors"
-            >
-              Política de privacidad
-            </Link>
+            <div className="flex items-center gap-4">
+              <Link
+                href="/blog"
+                className="text-blue-300 text-sm underline hover:text-white transition-colors"
+              >
+                Guías legales
+              </Link>
+              <Link
+                href="/privacidad"
+                className="text-blue-300 text-sm underline hover:text-white transition-colors"
+              >
+                Política de privacidad
+              </Link>
+            </div>
           </div>
 
           <p className="text-blue-400 text-xs text-center max-w-md">

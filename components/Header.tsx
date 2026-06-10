@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { WHATSAPP_URL } from "@/lib/site";
 
 export default function Header() {
@@ -10,7 +11,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
-          <a href="#" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center gap-2">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
               <svg
                 className="w-6 h-6 text-white"
@@ -29,33 +30,39 @@ export default function Header() {
             <span className="text-xl font-bold text-primary">
               Abogados Familia
             </span>
-          </a>
+          </Link>
 
           <nav className="hidden md:flex items-center gap-8">
-            <a
-              href="#servicios"
+            <Link
+              href="/#servicios"
               className="text-sm font-medium text-gray-600 hover:text-primary transition-colors"
             >
               Servicios
-            </a>
-            <a
-              href="#metodo"
+            </Link>
+            <Link
+              href="/#metodo"
               className="text-sm font-medium text-gray-600 hover:text-primary transition-colors"
             >
               Método
-            </a>
-            <a
-              href="#preguntas"
+            </Link>
+            <Link
+              href="/#preguntas"
               className="text-sm font-medium text-gray-600 hover:text-primary transition-colors"
             >
               Preguntas
-            </a>
-            <a
-              href="#contacto"
+            </Link>
+            <Link
+              href="/blog"
+              className="text-sm font-medium text-gray-600 hover:text-primary transition-colors"
+            >
+              Guías Legales
+            </Link>
+            <Link
+              href="/#contacto"
               className="text-sm font-medium text-gray-600 hover:text-primary transition-colors"
             >
               Contacto
-            </a>
+            </Link>
             <a
               href={WHATSAPP_URL}
               target="_blank"
@@ -101,34 +108,41 @@ export default function Header() {
         {menuOpen && (
           <div className="md:hidden pb-4 border-t border-gray-100">
             <nav className="flex flex-col gap-3 pt-4">
-              <a
-                href="#servicios"
+              <Link
+                href="/#servicios"
                 className="text-sm font-medium text-gray-600 hover:text-primary px-2 py-1"
                 onClick={() => setMenuOpen(false)}
               >
                 Servicios
-              </a>
-              <a
-                href="#metodo"
+              </Link>
+              <Link
+                href="/#metodo"
                 className="text-sm font-medium text-gray-600 hover:text-primary px-2 py-1"
                 onClick={() => setMenuOpen(false)}
               >
                 Método
-              </a>
-              <a
-                href="#preguntas"
+              </Link>
+              <Link
+                href="/#preguntas"
                 className="text-sm font-medium text-gray-600 hover:text-primary px-2 py-1"
                 onClick={() => setMenuOpen(false)}
               >
                 Preguntas
-              </a>
-              <a
-                href="#contacto"
+              </Link>
+              <Link
+                href="/blog"
+                className="text-sm font-medium text-gray-600 hover:text-primary px-2 py-1"
+                onClick={() => setMenuOpen(false)}
+              >
+                Guías Legales
+              </Link>
+              <Link
+                href="/#contacto"
                 className="text-sm font-medium text-gray-600 hover:text-primary px-2 py-1"
                 onClick={() => setMenuOpen(false)}
               >
                 Contacto
-              </a>
+              </Link>
               <a
                 href={WHATSAPP_URL}
                 target="_blank"

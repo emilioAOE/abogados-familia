@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import Method from "@/components/Method";
 import FAQ from "@/components/FAQ";
+import Guides from "@/components/Guides";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -156,6 +157,7 @@ export default function Home() {
         <Services />
         <Method />
         <FAQ />
+        <Guides />
         <Contact />
       </main>
       <Footer />
