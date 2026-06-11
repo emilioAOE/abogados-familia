@@ -700,6 +700,153 @@ export const posts: Post[] = [
       { name: "SernamEG — Programa de atención a víctimas (fono 1455)", url: "https://www.sernameg.gob.cl" },
     ],
   },
+
+  // ───────────────────────────── 7. RÉGIMEN DE BIENES ─────────────────────────────
+  {
+    slug: "regimen-de-bienes-matrimonio-chile",
+    title:
+      "Régimen de Bienes en el Matrimonio en Chile: sociedad conyugal, participación en gananciales y separación de bienes",
+    metaTitle: "Régimen de Bienes en el Matrimonio Chile: cuál elegir y cómo cambiar",
+    description:
+      "Guía completa de los tres regímenes de bienes del matrimonio en Chile: sociedad conyugal (régimen por defecto), participación en gananciales y separación total de bienes. Diferencias, cómo elegir antes de casarse y cómo cambiar después.",
+    category: "Régimen de bienes",
+    datePublished: "2026-06-12",
+    dateModified: "2026-06-12",
+    readingMinutes: 8,
+    keywords: [
+      "régimen de bienes matrimonio chile",
+      "sociedad conyugal chile",
+      "separación de bienes chile",
+      "participación en gananciales chile",
+      "cambiar régimen de bienes matrimonio",
+      "capitulaciones matrimoniales chile",
+    ],
+    lead:
+      "En Chile existen tres regímenes de bienes para el matrimonio: **sociedad conyugal** (el régimen por defecto si no se pacta otro), **separación total de bienes** y **participación en los gananciales**. Si los cónyuges no eligen antes del matrimonio, quedan automáticamente en **sociedad conyugal**. Es posible **cambiar de régimen durante el matrimonio** — de sociedad conyugal o participación en gananciales a separación de bienes — mediante escritura pública subinscrita en el Registro Civil, pero este cambio es **irrevocable**.",
+    stats: [
+      { label: "Régimen por defecto", value: "Sociedad conyugal" },
+      { label: "Opciones al casarse", value: "3: sociedad conyugal · separación · participación" },
+      { label: "Pacto antes del matrimonio", value: "Capitulaciones matrimoniales ante notario" },
+      { label: "Cambio durante el matrimonio", value: "Solo hacia separación de bienes (irrevocable)" },
+      { label: "Se liquida al", value: "Divorcio, nulidad o muerte de un cónyuge" },
+      { label: "Marco legal", value: "Código Civil Arts. 135 a 178 · Ley 19.335" },
+    ],
+    blocks: [
+      { t: "h2", x: "¿Qué es el régimen de bienes y por qué importa?" },
+      {
+        t: "p",
+        x: "El régimen de bienes determina **quién es dueño de qué** durante el matrimonio y **cómo se reparten los bienes** al terminar — por [divorcio](/blog/divorcio-en-chile), nulidad o fallecimiento. Elegir bien protege tu patrimonio, tu emprendimiento y a tu familia. Si no eliges nada, la ley te asigna sociedad conyugal, que puede no ser lo que más te conviene.",
+      },
+      { t: "h2", x: "Los tres regímenes explicados" },
+      { t: "h3", x: "1. Sociedad conyugal (régimen por defecto)" },
+      {
+        t: "p",
+        x: "Es el régimen legal supletorio: si no pactas otro antes de casarte, quedas en sociedad conyugal. Funciona así: todo lo que los cónyuges **adquieren durante el matrimonio a título oneroso** (sueldos, compras, inversiones) pasa a un fondo común llamado **haber social**, que al disolverse se **divide por mitades**. Lo que cada uno tenía antes de casarse o recibe **por herencia o donación** queda como bien propio.",
+      },
+      {
+        t: "ul",
+        x: [
+          "La **administración ordinaria** del haber social la tiene el **marido** — un aspecto criticado por su origen histórico — aunque necesita **autorización de la mujer** para vender, hipotecar o gravar bienes raíces sociales o los de ella (Art. 1749 del Código Civil).",
+          "La mujer tiene un **patrimonio reservado** (Art. 150 CC): los bienes que adquiere con su trabajo separado del marido los administra y dispone libremente.",
+          "Al disolverse, se liquida: se pagan las deudas sociales y el remanente se **divide por mitades** entre los cónyuges (o sus herederos).",
+        ],
+      },
+      { t: "h3", x: "2. Separación total de bienes" },
+      {
+        t: "p",
+        x: "Cada cónyuge **administra, goza y dispone libremente** de sus propios bienes, tanto los que tenía antes como los que adquiere durante el matrimonio. No se forma patrimonio común. Al divorciarse, **cada uno se queda con lo suyo** — no hay liquidación. Se pacta en las **capitulaciones matrimoniales** antes del matrimonio, o se puede adoptar **durante el matrimonio** sustituyendo la sociedad conyugal o la participación en gananciales.",
+      },
+      {
+        t: "note",
+        x: "Es el régimen que eligen la mayoría de las parejas con actividad empresarial o patrimonios desiguales, porque protege a cada cónyuge de las deudas del otro y simplifica el divorcio.",
+      },
+      { t: "h3", x: "3. Participación en los gananciales" },
+      {
+        t: "p",
+        x: "Creado por la **Ley 19.335** de 1994. Durante el matrimonio funciona **como separación de bienes**: cada cónyuge administra lo suyo de forma independiente. Pero al disolverse el régimen, se calcula cuánto **ganó** cada uno durante el matrimonio (los «gananciales»), y el que ganó menos tiene derecho a que el otro le pague la **mitad de la diferencia**, como un **crédito en dinero**.",
+      },
+      {
+        t: "ul",
+        x: [
+          "Combina la independencia de la separación con la equidad de la sociedad conyugal.",
+          "No se reparten bienes específicos: el crédito de participación es una **obligación de pagar dinero**.",
+          "Se pacta en las capitulaciones matrimoniales antes de casarse, o puede adoptarse durante el matrimonio en lugar de la sociedad conyugal (Arts. 1723 y 1792-1 CC).",
+        ],
+      },
+      { t: "h2", x: "Comparación rápida de los tres regímenes" },
+      {
+        t: "table",
+        head: ["Aspecto", "Sociedad conyugal", "Separación de bienes", "Participación en gananciales"],
+        rows: [
+          ["Patrimonio común", "Sí (haber social)", "No", "No durante el matrimonio; se compensa al final"],
+          ["Administración", "Marido (con limitaciones)", "Cada uno lo suyo", "Cada uno lo suyo"],
+          ["Al disolverse", "Se liquida y reparte por mitades", "Cada uno conserva lo suyo", "Se paga crédito de participación al que ganó menos"],
+          ["Protección ante deudas del otro", "Limitada", "Total", "Total durante el matrimonio"],
+          ["Se puede pactar al casarse", "Es el defecto si no se pacta", "Sí, ante notario", "Sí, ante notario"],
+        ],
+      },
+      { t: "h2", x: "Cómo elegir el régimen antes de casarse" },
+      {
+        t: "p",
+        x: "Para optar por separación de bienes o participación en gananciales hay que otorgar **capitulaciones matrimoniales**: un pacto celebrado ante **notario** antes del matrimonio. Las capitulaciones se subinscriben al margen del acta de matrimonio en el Registro Civil. Si no se otorgan, el matrimonio queda automáticamente en sociedad conyugal.",
+      },
+      {
+        t: "note",
+        x: "Las capitulaciones matrimoniales también pueden estipular donaciones entre los esposos, la renuncia de gananciales por parte de la mujer, y otras convenciones lícitas que no afecten derechos de terceros ni los deberes del matrimonio.",
+      },
+      { t: "h2", x: "¿Se puede cambiar el régimen durante el matrimonio?" },
+      {
+        t: "p",
+        x: "Sí, con una limitación importante: **solo se puede pasar a separación total de bienes**, nunca al revés. El cambio se hace mediante **escritura pública** subinscrita al margen de la inscripción matrimonial dentro de **30 días**. Es un acto **irrevocable**: una vez que los cónyuges optan por separación de bienes, no pueden volver a sociedad conyugal ni a participación en gananciales (Art. 1723 del Código Civil).",
+      },
+      {
+        t: "ol",
+        x: [
+          "Ambos cónyuges concurren ante **notario** y otorgan escritura pública de sustitución de régimen.",
+          "En la misma escritura se puede **liquidar la sociedad conyugal** o el régimen anterior.",
+          "Se subinscribe al margen del acta de matrimonio en el **Registro Civil** dentro de 30 días.",
+          "Desde la subinscripción, el nuevo régimen produce efectos respecto de terceros.",
+        ],
+      },
+      { t: "h2", x: "¿Qué pasa con los bienes al divorciarse?" },
+      {
+        t: "p",
+        x: "En **sociedad conyugal**, el divorcio la disuelve y debe liquidarse: se inventarían los bienes sociales, se pagan las deudas y el remanente se divide por mitades. Si no hay acuerdo, se liquida judicialmente con un partidor. En **separación de bienes**, cada uno conserva lo suyo y no hay liquidación. En **participación en gananciales**, se calculan los gananciales de cada cónyuge y el que obtuvo menos tiene derecho al crédito de participación.",
+      },
+      {
+        t: "p",
+        x: "Independiente del régimen, el cónyuge que se dedicó al hogar o al cuidado de los hijos puede pedir una **compensación económica** (Arts. 61 a 66 de la Ley 19.947), que es un derecho distinto y adicional a la liquidación del régimen.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Cuál régimen me conviene más?",
+        a: "Depende de tu situación: la separación de bienes es preferible cuando uno o ambos tienen actividad empresarial o patrimonio propio que quieren proteger. La sociedad conyugal favorece al cónyuge que no trabaja remuneradamente, pues recibe la mitad de los gananciales. La participación en gananciales ofrece un equilibrio: independencia durante el matrimonio y compensación al final.",
+      },
+      {
+        q: "¿En el acuerdo de unión civil se elige régimen de bienes?",
+        a: "No exactamente igual. En el AUC los convivientes civiles quedan en separación total de bienes, salvo que pacten comunidad de bienes (régimen análogo a la participación en gananciales). No existe sociedad conyugal en el AUC.",
+      },
+      {
+        q: "¿Puedo volver a sociedad conyugal después de cambiar a separación de bienes?",
+        a: "No. El cambio a separación de bienes es irrevocable por mandato del Art. 1723 del Código Civil. Una vez que se pacta, no se puede retornar a sociedad conyugal ni a participación en gananciales.",
+      },
+      {
+        q: "¿Las deudas de mi cónyuge me pueden afectar?",
+        a: "En sociedad conyugal, las deudas contraídas por el marido en la administración del haber social obligan a la sociedad y pueden afectar bienes comunes. En separación de bienes y en participación en gananciales, cada uno responde solo por sus deudas con su patrimonio.",
+      },
+      {
+        q: "¿Qué pasa si me caso en el extranjero y vivo en Chile?",
+        a: "El matrimonio celebrado en el extranjero se reconoce en Chile (Art. 80 de la Ley 19.947), pero los efectos patrimoniales se rigen por la ley chilena. Si no se inscribió un régimen, se entiende que están en separación de bienes, salvo que inscriban el matrimonio y pacten otro régimen.",
+      },
+    ],
+    related: ["divorcio-en-chile", "pension-de-alimentos-chile", "mediacion-familiar-chile"],
+    sources: [
+      { name: "Código Civil, Libro IV — De las obligaciones y contratos, Título XXII — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=172986" },
+      { name: "Ley 19.335 sobre régimen de participación en los gananciales — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idLey=19335" },
+      { name: "Ley 19.947 de Matrimonio Civil — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idLey=19947" },
+    ],
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {
