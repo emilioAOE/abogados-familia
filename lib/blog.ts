@@ -847,6 +847,162 @@ export const posts: Post[] = [
       { name: "Ley 19.947 de Matrimonio Civil — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idLey=19947" },
     ],
   },
+
+  // ───────────────────────────── 8. RELACIÓN DIRECTA Y REGULAR (VISITAS) ─────────────────────────────
+  {
+    slug: "relacion-directa-y-regular-visitas",
+    title:
+      "Relación Directa y Regular (Régimen de Visitas) en Chile: cómo se regula y se hace cumplir",
+    metaTitle: "Régimen de Visitas en Chile: cómo se fija y qué hacer si lo incumplen",
+    description:
+      "Guía de la relación directa y regular (visitas) en Chile: cómo acordarla, qué pasa sin acuerdo, los criterios del juez, qué incluye un régimen típico y cómo exigir su cumplimiento si el otro padre obstaculiza el contacto con los hijos.",
+    category: "Relación directa y regular",
+    datePublished: "2026-06-16",
+    dateModified: "2026-06-16",
+    readingMinutes: 8,
+    keywords: [
+      "relación directa y regular chile",
+      "régimen de visitas chile",
+      "demanda de relación directa y regular",
+      "incumplimiento régimen de visitas",
+      "visitas padre separado chile",
+      "régimen de visitas tribunal de familia",
+    ],
+    lead:
+      "La relación directa y regular —el antiguo «régimen de visitas»— es el **derecho del hijo y del padre o madre que no vive con él a mantener un contacto periódico y estable**. Puede **acordarse** entre los padres (idealmente por escrito y aprobado en [mediación familiar](/blog/mediacion-familiar-chile)) y, **sin acuerdo, lo fija el Tribunal de Familia** ponderando el interés superior del niño. Es un **derecho del hijo**, no un favor del otro padre: quien tiene el [cuidado personal](/blog/cuidado-personal-de-los-hijos) **no puede obstaculizarlo**, y si lo hace puede pedirse su cumplimiento forzado e incluso constituir causal para revisar el cuidado.",
+    stats: [
+      { label: "Naturaleza", value: "Derecho del hijo y del padre/madre no custodio" },
+      { label: "Acuerdo", value: "Escrito, idealmente vía mediación aprobada por el juez" },
+      { label: "Sin acuerdo", value: "Lo fija el Tribunal de Familia" },
+      { label: "Trámite previo a demandar", value: "Mediación obligatoria y gratuita" },
+      { label: "Criterio rector", value: "Interés superior del niño (Art. 229 CC)" },
+      { label: "Si lo incumplen", value: "Cumplimiento forzado y apremios" },
+    ],
+    blocks: [
+      { t: "h2", x: "¿Qué es la relación directa y regular?" },
+      {
+        t: "p",
+        x: "La **relación directa y regular** es el régimen que permite al padre o madre que **no tiene el cuidado personal** mantener con su hijo un contacto periódico y estable: verlo, comunicarse, compartir tiempo y participar en su crianza. Está regulada en el **Art. 229 del Código Civil** y reemplazó en el lenguaje legal al antiguo «derecho de visitas», porque no se trata de simples «visitas», sino de una relación que debe ser **directa** (contacto personal) y **regular** (con una periodicidad cierta y previsible).",
+      },
+      {
+        t: "p",
+        x: "La ley es enfática: este derecho se ejerce **en beneficio del hijo**. No es una concesión que el padre custodio otorgue o niegue a su voluntad: es, ante todo, **un derecho del propio niño** a no perder el vínculo con ambos progenitores tras la separación.",
+      },
+      { t: "h2", x: "¿Quién tiene derecho a la relación directa y regular?" },
+      {
+        t: "ul",
+        x: [
+          "El **padre o madre que no vive con el hijo** (porque el otro tiene el cuidado personal).",
+          "El propio **hijo**, que es el titular principal del derecho a mantener el vínculo.",
+          "Los **abuelos** y otros parientes pueden pedir un régimen de relación directa y regular cuando se les impide ver al niño y ello conviene a su interés (Art. 229 inciso final del Código Civil).",
+        ],
+      },
+      { t: "h2", x: "Cómo acordar el régimen sin juicio" },
+      {
+        t: "p",
+        x: "Lo ideal es que los padres lo **acuerden de común acuerdo**. Ese acuerdo puede plasmarse en una **mediación familiar**: si los padres llegan a un acta de acuerdo y el juez la aprueba, tiene **valor de sentencia** y se puede exigir su cumplimiento. También puede incluirse en el **acuerdo completo y suficiente** de un [divorcio](/blog/divorcio-en-chile) de mutuo acuerdo, junto con los alimentos y el cuidado personal.",
+      },
+      {
+        t: "note",
+        x: "Un acuerdo verbal «de palabra» no es exigible si después se incumple. Conviene siempre dejarlo por **escrito** y, mejor aún, **aprobado judicialmente** (vía mediación o en la sentencia), para poder hacerlo cumplir por la fuerza si fuera necesario.",
+      },
+      { t: "h2", x: "¿Qué pasa si no hay acuerdo? Demanda ante el Tribunal de Familia" },
+      {
+        t: "p",
+        x: "Si los padres no logran acordarlo, el régimen lo **fija el juez**. Antes de demandar es obligatoria la [mediación familiar](/blog/mediacion-familiar-chile), que es gratuita en los centros licitados por el Ministerio de Justicia. Solo con el **acta de mediación frustrada** un abogado puede presentar la demanda de relación directa y regular ante el Tribunal de Familia del domicilio del niño.",
+      },
+      { t: "h2", x: "Los criterios que pondera el juez" },
+      {
+        t: "p",
+        x: "El **Art. 229 del Código Civil** ordena que el régimen propenda a una relación **sana y cariñosa** entre padre e hijo, y manda al juez —y a los propios padres— considerar especialmente:",
+      },
+      {
+        t: "ul",
+        x: [
+          "La **edad** del hijo y la etapa de desarrollo en que se encuentra.",
+          "La **vinculación afectiva** entre el hijo y el padre o madre que pide el régimen, y la relación con el resto de la familia.",
+          "El **régimen de cuidado personal** vigente y la rutina escolar y de actividades del niño.",
+          "Cualquier otro elemento de relevancia para el **interés superior del niño**.",
+          "La **opinión del hijo**, según su edad y madurez, escuchada por el tribunal en audiencia reservada.",
+        ],
+      },
+      {
+        t: "note",
+        x: "El régimen puede **suspenderse o restringirse** —incluso establecerse como relación **supervisada o asistida** en un punto de encuentro— cuando exista riesgo para el niño (por ejemplo antecedentes de [violencia intrafamiliar](/blog/violencia-intrafamiliar-medidas-proteccion) o consumo problemático). El interés del hijo prima siempre por sobre el del adulto.",
+      },
+      { t: "h2", x: "¿Qué incluye un régimen de visitas típico?" },
+      {
+        t: "p",
+        x: "No existe una fórmula única —cada régimen se adapta a la edad del niño, las distancias y la realidad de la familia—, pero un régimen frecuente regula con detalle:",
+      },
+      {
+        t: "ul",
+        x: [
+          "**Fines de semana alternos**, normalmente desde el viernes (o sábado) hasta el domingo en la tarde, indicando horas y lugar de retiro y entrega.",
+          "**Días de semana** (por ejemplo una tarde) y contacto telefónico o por videollamada.",
+          "**Vacaciones de verano e invierno**, repartidas por mitades o en semanas alternas.",
+          "**Fiestas y fechas especiales**: Navidad, Año Nuevo, Fiestas Patrias, cumpleaños del hijo y de cada padre, Día de la Madre y del Padre.",
+          "Reglas de **traslado** (quién retira y entrega al niño y dónde) para evitar conflictos.",
+        ],
+      },
+      { t: "h2", x: "Paso a paso para fijar o modificar el régimen" },
+      {
+        t: "ol",
+        x: [
+          "**Mediación familiar obligatoria**: gratuita en centros licitados. Si hay acuerdo, el acta aprobada por el juez vale como sentencia.",
+          "**Demanda con abogado** ante el Tribunal de Familia del domicilio del niño, acompañando el acta de mediación frustrada. Si no puedes pagar abogado, la Corporación de Asistencia Judicial (CAJ) atiende gratis.",
+          "**Audiencia preparatoria**: se fijan los hechos a probar; el tribunal puede pedir informe del consejo técnico o peritajes.",
+          "**Audiencia de juicio**: declaran testigos y peritos, y el juez escucha al niño en forma reservada si su edad y madurez lo permiten.",
+          "**Sentencia**: fija el régimen con horarios, lugares y reglas. Puede **modificarse** más adelante si cambian las circunstancias (cambio de ciudad, nueva jornada del niño), pasando otra vez por mediación.",
+        ],
+      },
+      { t: "h2", x: "¿Qué hacer si el otro padre obstaculiza las visitas?" },
+      {
+        t: "p",
+        x: "Si existe un régimen fijado por acuerdo aprobado o sentencia y el padre custodio lo **incumple** —no entrega al niño, inventa excusas reiteradas, impide el contacto—, se puede pedir su **cumplimiento forzado** ante el mismo tribunal. La ley contempla apremios para hacerlo efectivo.",
+      },
+      {
+        t: "ul",
+        x: [
+          "Solicitar el **cumplimiento de la resolución** con auxilio de la fuerza pública para la entrega del niño.",
+          "**Multas** y, en casos de incumplimiento grave y reiterado, **arresto** del padre o madre que obstaculiza (apremios del Art. 66 de la Ley 19.968).",
+          "El obstáculo injustificado y reiterado es además un **antecedente que el tribunal pondera** para evaluar un eventual cambio del [cuidado personal](/blog/cuidado-personal-de-los-hijos), pues revela falta de cooperación con el otro padre.",
+        ],
+      },
+      {
+        t: "note",
+        x: "Importante: el régimen de visitas y la [pensión de alimentos](/blog/pension-de-alimentos-chile) son **obligaciones independientes**. Nadie puede negar las visitas porque no se pagó la pensión, ni dejar de pagar la pensión porque no lo dejan ver al hijo. Cada incumplimiento se reclama por su propia vía.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿La relación directa y regular es lo mismo que el derecho de visitas?",
+        a: "Sí, es el nombre legal actual del antiguo «régimen de visitas». Se llama directa y regular porque debe implicar contacto personal (directa) y una periodicidad estable y previsible (regular), no encuentros esporádicos.",
+      },
+      {
+        q: "¿Pueden negarme ver a mi hijo si no pago la pensión de alimentos?",
+        a: "No. Las visitas y la pensión de alimentos son obligaciones independientes. El no pago de la pensión se reclama por sus propias vías (incluido el Registro Nacional de Deudores), pero no autoriza a impedir la relación directa y regular, que es un derecho del hijo.",
+      },
+      {
+        q: "¿Puedo modificar el régimen si cambian las circunstancias?",
+        a: "Sí. Como toda resolución de familia, el régimen puede modificarse cuando cambian las circunstancias (cambio de ciudad, nueva rutina escolar del niño, cambio de jornada laboral), pasando nuevamente por mediación y, si no hay acuerdo, por un nuevo juicio.",
+      },
+      {
+        q: "¿Los abuelos tienen derecho a ver a sus nietos?",
+        a: "Sí. El Art. 229 del Código Civil permite a los abuelos (y a otros parientes) solicitar un régimen de relación directa y regular cuando se les impide el contacto con el niño, siempre que ello convenga a su interés superior.",
+      },
+      {
+        q: "¿Qué pasa si el niño no quiere ir con el otro padre?",
+        a: "El juez escucha la opinión del hijo según su edad y madurez, pero la decisión la toma el tribunal conforme a su interés superior. Si hay una negativa persistente, puede ordenarse una evaluación y, de existir riesgo, un régimen supervisado; lo que no procede es que un padre instrumentalice al hijo para romper el vínculo con el otro.",
+      },
+    ],
+    related: ["cuidado-personal-de-los-hijos", "mediacion-familiar-chile", "pension-de-alimentos-chile"],
+    sources: [
+      { name: "Código Civil (Art. 229, relación directa y regular) — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=172986" },
+      { name: "Ley 19.968 que crea los Tribunales de Familia — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idLey=19968" },
+      { name: "Ley Fácil: guías legales — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil" },
+    ],
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {
