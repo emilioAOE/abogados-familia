@@ -442,6 +442,10 @@ export const posts: Post[] = [
         t: "note",
         x: "Desde la reforma de la **Ley 20.680 (2013)** la ley es neutra: **no existe preferencia legal por la madre**. El único estándar es el interés superior del niño, evaluado caso a caso con estos criterios.",
       },
+      {
+        t: "p",
+        x: "Como cada caso se resuelve ponderando estos criterios, conocer cómo los tribunales de familia los han aplicado en fallos anteriores ayuda a anticipar el resultado. Hoy existen herramientas que permiten [consultar jurisprudencia con IA](https://constitucionalai.com/) y revisar en lenguaje natural cómo se ha interpretado el interés superior del niño en sentencias sobre cuidado personal.",
+      },
       { t: "h2", x: "Paso a paso para demandar el cuidado personal" },
       {
         t: "ol",
