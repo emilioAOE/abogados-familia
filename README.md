@@ -1,5 +1,24 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## IndexNow (indexación instantánea en Bing/Microsoft)
+
+El sitio expone una clave de verificación IndexNow en `public/674a0437e6f2f06561298449ed2fce0f.txt`
+(hay además una clave antigua, también válida, en `public/42f7c28eaaa64dea86e3c1a1ae273629.txt`).
+
+Para notificar a los buscadores compatibles que las URLs cambiaron, ejecuta:
+
+```bash
+npm run indexnow            # lee el sitemap de producción y envía las URLs
+node scripts/indexnow.mjs --dry-run   # solo imprime las URLs, no envía nada
+```
+
+El script (`scripts/indexnow.mjs`) descarga `https://www.firmafamilia.cl/sitemap.xml`,
+extrae todas las URLs `<loc>` del dominio y las envía en un único POST a
+`https://api.indexnow.org/indexnow`. No requiere dependencias (usa `fetch` nativo
+de Node 18+). Variables opcionales: `INDEXNOW_HOST` y `INDEXNOW_KEY` (la clave
+debe existir como `public/<clave>.txt`). Conviene correrlo tras cada despliegue
+que cambie o agregue contenido.
+
 ## Getting Started
 
 First, run the development server:

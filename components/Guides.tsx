@@ -1,12 +1,19 @@
 import Link from "next/link";
-import { featuredSlugs, getPost } from "@/lib/blog";
+import { featuredSlugs, getPost, posts } from "@/lib/blog";
 
 // Destacados del blog en la portada: refuerza el enlazado interno hacia
 // las guías (SEO) y da contenido de profundidad a quien aún compara.
+// Además de las 3 tarjetas destacadas, se enlazan TODAS las guías restantes
+// en una lista compacta para que Google las descubra e indexe directamente
+// desde la portada (un solo salto), no solo a través de /blog.
 export default function Guides() {
   const featured = featuredSlugs
     .map((slug) => getPost(slug))
     .filter((p): p is NonNullable<typeof p> => Boolean(p));
+
+  // Resto de las guías (todas las que no están destacadas), en el orden del
+  // registro. Se deriva de `posts` para no desincronizar al agregar guías.
+  const moreGuides = posts.filter((p) => !featuredSlugs.includes(p.slug));
 
   return (
     <section id="guias" className="py-16 sm:py-24 bg-white">
@@ -46,6 +53,34 @@ export default function Guides() {
             </Link>
           ))}
         </div>
+
+        {moreGuides.length > 0 && (
+          <div className="mt-10 max-w-4xl mx-auto">
+            <p className="text-center text-sm font-semibold uppercase tracking-wider text-gray-400 mb-5">
+              Más guías de derecho de familia
+            </p>
+            <ul className="grid gap-x-8 gap-y-3 sm:grid-cols-2">
+              {moreGuides.map((post) => (
+                <li key={post.slug}>
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    className="group flex items-start gap-2 text-gray-700 hover:text-primary transition-colors"
+                  >
+                    <span
+                      aria-hidden="true"
+                      className="text-accent-dark mt-0.5 shrink-0"
+                    >
+                      →
+                    </span>
+                    <span className="text-sm font-medium leading-snug group-hover:underline">
+                      {post.metaTitle}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
 
         <div className="text-center mt-10">
           <Link
