@@ -1007,6 +1007,694 @@ export const posts: Post[] = [
       { name: "Ley Fácil: guías legales — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil" },
     ],
   },
+
+  // ───────────────────────────── 9. CUÁNTO CUESTA UN DIVORCIO ─────────────────────────────
+  {
+    slug: "cuanto-cuesta-un-divorcio-en-chile",
+    title:
+      "¿Cuánto cuesta un divorcio en Chile? Honorarios, gastos y cómo divorciarse gratis",
+    metaTitle: "¿Cuánto cuesta un divorcio en Chile? Honorarios y gastos 2026",
+    description:
+      "Cuánto cuesta divorciarse en Chile: el tribunal no cobra, el costo real son los honorarios del abogado (más bajos en mutuo acuerdo que en uno controvertido). Cómo divorciarse gratis con la CAJ y qué gastos esperar.",
+    category: "Divorcio",
+    datePublished: "2026-06-18",
+    dateModified: "2026-06-18",
+    readingMinutes: 7,
+    keywords: [
+      "cuánto cuesta un divorcio en chile",
+      "precio divorcio chile",
+      "honorarios abogado divorcio",
+      "divorcio gratis chile",
+      "costo divorcio de mutuo acuerdo",
+    ],
+    lead:
+      "El **Tribunal de Familia no cobra** por tramitar un divorcio: en Chile la justicia de familia es gratuita. El costo real son los **honorarios del abogado**, que son **más bajos en un divorcio de mutuo acuerdo** (rápido y sin controversia) y **más altos en uno unilateral o controvertido** que exige audiencias y prueba. Si no puedes pagar abogado, la **Corporación de Asistencia Judicial (CAJ) tramita el divorcio gratis** con privilegio de pobreza. Desconfía de quien ofrezca un «divorcio exprés sin juicio»: en Chile el divorcio **siempre** pasa por el tribunal.",
+    stats: [
+      { label: "Costo del tribunal", value: "$0 (la justicia de familia es gratuita)" },
+      { label: "Costo principal", value: "Honorarios del abogado" },
+      { label: "Más barato", value: "Divorcio de mutuo acuerdo" },
+      { label: "Más caro", value: "Divorcio unilateral / por culpa (controvertido)" },
+      { label: "Opción gratuita", value: "Corporación de Asistencia Judicial (CAJ)" },
+      { label: "¿Requiere abogado?", value: "Sí, siempre" },
+    ],
+    blocks: [
+      { t: "h2", x: "¿Cuánto cuesta divorciarse en Chile en 2026?" },
+      {
+        t: "p",
+        x: "La respuesta honesta es: **depende del tipo de divorcio y del abogado**, porque en Chile no existe un arancel fijo. Lo que sí es seguro es que el **Tribunal de Familia no cobra tasas ni aranceles** por tramitar la causa. El gasto relevante son los **honorarios del abogado**, que cada profesional fija libremente y que dependen sobre todo de si el [divorcio](/blog/divorcio-en-chile) es de común acuerdo o controvertido.",
+      },
+      {
+        t: "p",
+        x: "Como regla general, un **divorcio de mutuo acuerdo** —donde ambos cónyuges están de acuerdo y firman un acuerdo completo y suficiente— es **considerablemente más barato y rápido** que un **divorcio unilateral** o **por culpa**, que exige audiencias, prueba de testigos y a veces peritajes, y por tanto más horas de trabajo del abogado.",
+      },
+      { t: "h2", x: "Los componentes del costo de un divorcio" },
+      {
+        t: "ul",
+        x: [
+          "**Honorarios del abogado**: el gasto principal. Se pactan libremente y suelen ser una suma única en el mutuo acuerdo, o por etapas en el divorcio controvertido.",
+          "**Certificados del Registro Civil**: certificado de matrimonio y de nacimiento de los hijos. Muchos se obtienen **gratis en línea** en el sitio del Registro Civil.",
+          "**Escritura del acuerdo completo y suficiente** (en el mutuo acuerdo): si se otorga ante notario, tiene el costo de la escritura pública.",
+          "**Prueba del cese de convivencia**: si hay que extender un acta o escritura para acreditar la fecha del cese, tiene el costo notarial correspondiente.",
+          "**Liquidación de la sociedad conyugal** (si corresponde): es un trámite aparte; ver [régimen de bienes del matrimonio](/blog/regimen-de-bienes-matrimonio-chile).",
+        ],
+      },
+      {
+        t: "note",
+        x: "El divorcio en sí no liquida los bienes. Si estás en sociedad conyugal, la **liquidación** es un trámite distinto (de común acuerdo ante notario o judicial con un partidor) y tiene su propio costo, que no debe confundirse con el del divorcio.",
+      },
+      { t: "h2", x: "¿Por qué el mutuo acuerdo es más barato?" },
+      {
+        t: "p",
+        x: "Porque requiere **mucho menos trabajo y tiempo**. En el divorcio de común acuerdo basta acreditar **1 año de cese de convivencia** y presentar el **acuerdo completo y suficiente** que regula alimentos, [cuidado personal](/blog/cuidado-personal-de-los-hijos) y [relación directa y regular](/blog/relacion-directa-y-regular-visitas) de los hijos. Suele resolverse en pocas audiencias —a veces una sola— y demora unos **2 a 4 meses**.",
+      },
+      {
+        t: "p",
+        x: "El **divorcio unilateral** exige **3 años de cese**, audiencia preparatoria y de juicio, prueba de testigos y la posibilidad de que el otro cónyuge se oponga (incluida la **cláusula de dureza** del Art. 55 de la Ley 19.947). Más etapas significa más horas de abogado y, por lo tanto, mayor costo. Suele demorar de **6 meses a 1 año**.",
+      },
+      { t: "h2", x: "Cómo divorciarse gratis: la Corporación de Asistencia Judicial" },
+      {
+        t: "p",
+        x: "Si no puedes pagar un abogado, tienes derecho a tramitar tu divorcio **gratis** a través de la **Corporación de Asistencia Judicial (CAJ)**, que otorga representación con **privilegio de pobreza** a quienes no cuentan con medios. También las **clínicas jurídicas de las universidades** atienden causas de familia sin costo. La gratuidad cubre el patrocinio profesional; los certificados gratuitos del Registro Civil completan el cuadro.",
+      },
+      {
+        t: "ol",
+        x: [
+          "Acude a la **oficina de la CAJ** de tu comuna (o a una clínica jurídica universitaria) y solicita orientación.",
+          "Acredita tu situación económica para acceder al **privilegio de pobreza**.",
+          "Reúne los **documentos**: certificado de matrimonio, certificados de nacimiento de los hijos y prueba del cese de convivencia.",
+          "El abogado de la CAJ **presenta y tramita** el divorcio ante el Tribunal de Familia sin que pagues honorarios.",
+        ],
+      },
+      { t: "h2", x: "Cuidado con los «divorcios exprés» y ofertas engañosas" },
+      {
+        t: "p",
+        x: "En Chile **no existe el divorcio administrativo ni notarial**: todo divorcio —incluso el de mutuo acuerdo— se tramita ante el **Tribunal de Familia** y requiere abogado. Cualquier oferta de «divorcio en 24 horas», «sin juicio» o «solo ante notario» es engañosa. Lo que sí puede ser rápido y económico es un **mutuo acuerdo bien preparado**, pero siempre con sentencia judicial subinscrita en el Registro Civil. Solo desde esa subinscripción quedas legalmente divorciado.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿El Tribunal de Familia cobra por el divorcio?",
+        a: "No. La justicia de familia en Chile es gratuita: no hay tasas ni aranceles judiciales por tramitar un divorcio. El costo que enfrentas son los honorarios del abogado y algunos certificados, varios de los cuales se obtienen gratis en línea.",
+      },
+      {
+        q: "¿Cuánto cobra un abogado por un divorcio de mutuo acuerdo?",
+        a: "No hay arancel fijo: cada abogado fija sus honorarios libremente. En general el mutuo acuerdo es mucho más económico que un divorcio controvertido porque requiere menos audiencias y trabajo. Conviene pedir varios presupuestos y que el honorario quede por escrito.",
+      },
+      {
+        q: "¿Puedo divorciarme gratis?",
+        a: "Sí. La Corporación de Asistencia Judicial (CAJ) tramita divorcios gratis con privilegio de pobreza para quienes no pueden pagar un abogado, y las clínicas jurídicas universitarias también atienden causas de familia sin costo.",
+      },
+      {
+        q: "¿Es más barato hacer el divorcio yo mismo sin abogado?",
+        a: "No es posible: el divorcio en Chile requiere abogado obligatoriamente. Si el costo es el problema, la vía no es prescindir del abogado sino recurrir a la CAJ o a una clínica jurídica, que prestan el patrocinio gratis.",
+      },
+      {
+        q: "¿La liquidación de los bienes está incluida en el costo del divorcio?",
+        a: "No. La liquidación de la sociedad conyugal es un trámite distinto del divorcio, con su propio costo (notarial si es de común acuerdo, o judicial con partidor). El divorcio disuelve la sociedad conyugal, pero la repartición de los bienes se hace por separado.",
+      },
+    ],
+    related: ["divorcio-en-chile", "compensacion-economica-divorcio-como-se-calcula", "regimen-de-bienes-matrimonio-chile"],
+    sources: [
+      { name: "Ley 19.947 de Matrimonio Civil — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idLey=19947" },
+      { name: "Ley Fácil: El divorcio — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil/recurso/divorcio" },
+      { name: "Corporación de Asistencia Judicial (CAJ)", url: "https://www.cajmetropolitana.gob.cl" },
+    ],
+  },
+
+  // ───────────────────────────── 10. CÓMO REBAJAR LA PENSIÓN DE ALIMENTOS ─────────────────────────────
+  {
+    slug: "como-rebajar-la-pension-de-alimentos",
+    title:
+      "Cómo rebajar la pensión de alimentos en Chile: requisitos, causales y paso a paso",
+    metaTitle: "Cómo rebajar la pensión de alimentos en Chile (2026)",
+    description:
+      "Cómo pedir la rebaja de la pensión de alimentos en Chile: necesitas acreditar un cambio real de circunstancias (cesantía, nuevas cargas, baja de ingresos). Mediación previa, demanda de rebaja y por qué nunca debes dejar de pagar.",
+    category: "Pensión de alimentos",
+    datePublished: "2026-06-18",
+    dateModified: "2026-06-18",
+    readingMinutes: 7,
+    keywords: [
+      "cómo rebajar la pensión de alimentos",
+      "demanda de rebaja de pensión de alimentos",
+      "rebajar pensión alimenticia chile",
+      "disminuir pensión de alimentos",
+      "cambio de circunstancias pensión alimentos",
+    ],
+    lead:
+      "Para **rebajar la pensión de alimentos en Chile** debes demandar la rebaja ante el **Tribunal de Familia** y acreditar un **cambio real y permanente de circunstancias** desde que se fijó: por ejemplo, **pérdida del empleo, baja sostenida de ingresos o nuevas cargas familiares** (un nuevo hijo). Antes de demandar es **obligatoria la mediación**. Mientras el juez no resuelva, **debes seguir pagando el monto vigente**: dejar de pagar por tu cuenta genera deuda y puede llevarte al [Registro Nacional de Deudores](/blog/registro-nacional-de-deudores).",
+    stats: [
+      { label: "Requisito de fondo", value: "Cambio real y permanente de circunstancias" },
+      { label: "Trámite previo", value: "Mediación familiar obligatoria" },
+      { label: "Dónde se demanda", value: "Tribunal de Familia" },
+      { label: "Mientras se tramita", value: "Sigue pagando el monto vigente" },
+      { label: "Tope que no baja del mínimo", value: "40% IMM (1 hijo) salvo falta de medios" },
+      { label: "Ley aplicable", value: "Ley 14.908 · Art. 332 Código Civil" },
+    ],
+    blocks: [
+      { t: "h2", x: "¿Se puede rebajar una pensión de alimentos ya fijada?" },
+      {
+        t: "p",
+        x: "Sí. Ni el monto acordado en [mediación](/blog/mediacion-familiar-chile) ni el fijado por sentencia son inmodificables. La [pensión de alimentos](/blog/pension-de-alimentos-chile) se fija según dos factores —las **necesidades del hijo** y la **capacidad económica de quien paga**— y si esos factores **cambian sustancialmente**, cualquiera de los padres puede pedir su revisión. La rebaja la pide el **alimentante** (quien paga); el aumento lo pide quien recibe.",
+      },
+      {
+        t: "note",
+        x: "Clave jurídica: los alimentos se deben mientras subsistan las circunstancias que los motivaron (**Art. 332 del Código Civil**). Por eso una sentencia de alimentos siempre puede revisarse si esas circunstancias varían — no produce «cosa juzgada» definitiva en ese sentido.",
+      },
+      { t: "h2", x: "Causales que justifican una rebaja" },
+      {
+        t: "p",
+        x: "No basta con querer pagar menos: hay que demostrar un **cambio objetivo, real y no transitorio** respecto de la situación que existía cuando se fijó la pensión. Las causales más habituales son:",
+      },
+      {
+        t: "ul",
+        x: [
+          "**Pérdida del empleo o cesantía** prolongada del alimentante.",
+          "**Disminución sostenida de ingresos** (cierre del negocio, baja de remuneraciones, término de un contrato).",
+          "**Nacimiento de un nuevo hijo** u otras cargas familiares que el alimentante debe mantener.",
+          "**Enfermedad o incapacidad** que reduce la capacidad de generar ingresos o aumenta los gastos médicos propios.",
+          "**Disminución de las necesidades del hijo** (por ejemplo, dejó un colegio particular pagado, o el otro padre empezó a cubrir un gasto importante).",
+        ],
+      },
+      {
+        t: "note",
+        x: "Una baja **voluntaria o transitoria** de ingresos no sirve: si el alimentante renuncia a un buen trabajo o se «empobrece» a propósito para pagar menos, el tribunal puede rechazar la rebaja y apreciar su capacidad económica por **signos externos** (auto, propiedades, nivel de vida).",
+      },
+      { t: "h2", x: "El piso mínimo: hasta dónde puede bajar" },
+      {
+        t: "p",
+        x: "La pensión, en principio, **no puede rebajarse bajo el mínimo legal**: **40% de un ingreso mínimo mensual** por un hijo, o **30% por cada hijo** si son dos o más (Art. 3 de la Ley 14.908). Ese mínimo solo cede si el alimentante **acredita que carece de los medios** para pagarlo. Es decir, la rebaja puede ajustar el monto, pero el tribunal protege un umbral básico para el hijo salvo prueba clara de imposibilidad.",
+      },
+      { t: "h2", x: "Paso a paso para rebajar la pensión" },
+      {
+        t: "ol",
+        x: [
+          "**Reúne la prueba del cambio**: finiquito o carta de despido, liquidaciones que muestren la baja de ingresos, certificado de nacimiento del nuevo hijo, informes médicos, etc.",
+          "**Asiste a mediación familiar**: la rebaja de pensión es materia de **mediación previa obligatoria** y gratuita en los centros licitados. Si hay acuerdo, el acta aprobada por el juez vale como sentencia.",
+          "**Presenta la demanda de rebaja** (si la mediación se frustra) ante el **Tribunal de Familia**, con abogado o con la CAJ si no puedes pagarlo.",
+          "**Acredita en la audiencia** el cambio de circunstancias. El tribunal pondera las nuevas necesidades del hijo y tu capacidad económica real.",
+          "**Espera la sentencia**: si se acoge, el nuevo monto rige hacia el futuro. La rebaja **no borra la deuda ya devengada** antes de la sentencia.",
+        ],
+      },
+      { t: "h2", x: "El error más caro: dejar de pagar por tu cuenta" },
+      {
+        t: "p",
+        x: "Aunque tu situación económica haya empeorado de verdad, **no puedes rebajar la pensión unilateralmente** ni dejar de pagarla mientras esperas. La pensión vigente **se sigue debiendo** hasta que el juez la modifique, y cada mes impago se acumula como **deuda**. Esa deuda puede activar la [liquidación y los apremios](/blog/que-pasa-si-no-pago-la-pension-de-alimentos) y la inscripción en el [Registro Nacional de Deudores](/blog/registro-nacional-de-deudores), con retención de créditos, bloqueo de pasaporte y licencia, e incluso arresto.",
+      },
+      {
+        t: "note",
+        x: "Lo correcto es demandar la rebaja **apenas cambien tus circunstancias** y seguir pagando lo que puedas en el intertanto. Mostrar voluntad de pago juega a tu favor; acumular deuda, en tu contra.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Puedo rebajar la pensión si me quedé sin trabajo?",
+        a: "Puedes demandar la rebaja acreditando la cesantía y la baja real de ingresos, pero no puedes dejar de pagar por tu cuenta. El tribunal evaluará si el cambio es real y permanente. Mientras tanto, sigue pagando lo que puedas para no acumular deuda ni caer en el Registro de Deudores.",
+      },
+      {
+        q: "¿Tener un nuevo hijo es motivo para rebajar la pensión?",
+        a: "Sí, es una de las causales típicas: una nueva carga familiar disminuye tu capacidad económica disponible. Debes acreditarlo (certificado de nacimiento, gastos) en una demanda de rebaja, previa mediación. El tribunal redistribuye considerando a todos los hijos que debes mantener.",
+      },
+      {
+        q: "¿La rebaja borra lo que ya debo?",
+        a: "No. La rebaja rige hacia el futuro desde la sentencia. La deuda devengada antes —las cuotas impagas mientras se tramitaba— no se rebaja retroactivamente y sigue siendo exigible con sus apremios.",
+      },
+      {
+        q: "¿Hasta cuánto puede bajar la pensión?",
+        a: "Como regla, no bajo el mínimo legal (40% de un ingreso mínimo por un hijo, 30% por cada uno si son dos o más). Ese piso solo cede si acreditas ante el tribunal que careces de los medios para pagarlo.",
+      },
+      {
+        q: "¿Necesito abogado para pedir la rebaja?",
+        a: "Para la mediación no necesitas abogado, aunque es recomendable asesorarte. Para la demanda ante el Tribunal de Familia sí se requiere abogado; si no puedes pagarlo, la Corporación de Asistencia Judicial te representa gratis.",
+      },
+    ],
+    related: ["pension-de-alimentos-chile", "que-pasa-si-no-pago-la-pension-de-alimentos", "mediacion-familiar-chile"],
+    sources: [
+      { name: "Ley 14.908 sobre pago de pensiones alimenticias — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=27977" },
+      { name: "Código Civil (Art. 332, duración de los alimentos) — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=172986" },
+      { name: "Ley Fácil: Pensión alimenticia — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil/recurso/pension-alimenticia-para-menores" },
+    ],
+  },
+
+  // ───────────────────────────── 11. QUÉ PASA SI NO PAGO LA PENSIÓN ─────────────────────────────
+  {
+    slug: "que-pasa-si-no-pago-la-pension-de-alimentos",
+    title:
+      "¿Qué pasa si no pago la pensión de alimentos en Chile? Consecuencias y apremios",
+    metaTitle: "¿Qué pasa si no pago la pensión de alimentos? Consecuencias",
+    description:
+      "Consecuencias de no pagar la pensión de alimentos en Chile: liquidación de la deuda, retención de sueldo, arresto nocturno, arraigo, retención de la devolución de impuestos e inscripción en el Registro Nacional de Deudores (Ley 21.389).",
+    category: "Pensión de alimentos",
+    datePublished: "2026-06-18",
+    dateModified: "2026-06-18",
+    readingMinutes: 8,
+    keywords: [
+      "qué pasa si no pago la pensión de alimentos",
+      "consecuencias de no pagar pensión de alimentos",
+      "apremios pensión de alimentos",
+      "arresto por no pagar pensión",
+      "deuda pensión de alimentos chile",
+    ],
+    lead:
+      "Si no pagas la pensión de alimentos en Chile, quien la recibe puede pedir la **liquidación de la deuda** y una batería de **apremios**: **retención del sueldo por el empleador**, **retención de la devolución de impuestos**, **arresto nocturno** de hasta 15 días (ampliable) y **arraigo nacional**. Con **3 mensualidades consecutivas o 5 discontinuas** impagas quedas inscrito en el [Registro Nacional de Deudores](/blog/registro-nacional-de-deudores) (Ley 21.389), que **bloquea pasaporte, licencia de conducir y créditos**. La deuda **no prescribe fácilmente** y los apremios escalan mientras no pagues.",
+    stats: [
+      { label: "Primer paso del acreedor", value: "Liquidación de la deuda en el tribunal" },
+      { label: "Retención de sueldo", value: "El empleador descuenta y paga directo" },
+      { label: "Arresto nocturno", value: "Hasta 15 días, ampliable, + arraigo" },
+      { label: "Devolución de impuestos", value: "Retenida por Tesorería" },
+      { label: "Registro de Deudores", value: "3 cuotas consecutivas o 5 discontinuas" },
+      { label: "Ley aplicable", value: "Ley 14.908 · Ley 21.389" },
+    ],
+    blocks: [
+      { t: "h2", x: "No pagar la pensión tiene consecuencias serias" },
+      {
+        t: "p",
+        x: "La [pensión de alimentos](/blog/pension-de-alimentos-chile) es una obligación legal que se hace cumplir por la fuerza. Cuando el alimentante deja de pagar, la ley pone a disposición del alimentario (quien recibe) un conjunto de **apremios y medidas** cada vez más severos, regulados en la **Ley 14.908** y reforzados por la **Ley 21.389**. No se trata de amenazas teóricas: los tribunales de familia los aplican de forma rutinaria.",
+      },
+      { t: "h2", x: "Paso 1: la liquidación de la deuda" },
+      {
+        t: "p",
+        x: "Todo parte por **cuantificar lo adeudado**. El alimentario pide en el mismo expediente que se **liquide la deuda**: el tribunal calcula las cuotas impagas más los reajustes e intereses. Esa liquidación se **notifica al deudor**, que puede objetarla en un plazo breve. Aprobada la liquidación, queda firme el monto que se cobrará con los apremios.",
+      },
+      { t: "h2", x: "Paso 2: los apremios para forzar el pago" },
+      {
+        t: "ul",
+        x: [
+          "**Retención por el empleador**: el tribunal ordena descontar la pensión (y la deuda) directamente del sueldo y depositarla. Si el empleador no cumple, **responde solidariamente** de las sumas no retenidas.",
+          "**Retención de la devolución de impuestos**: la Tesorería retiene la devolución de la operación renta del deudor y la destina a pagar la deuda alimentaria.",
+          "**Suspensión de la licencia de conducir** y **retención de créditos** bancarios desde 50 UF (50%), entre otras medidas vinculadas al Registro de Deudores.",
+          "**Arraigo nacional**: el deudor no puede salir del país mientras no pague o garantice la deuda.",
+          "**Arresto nocturno**: el tribunal puede decretar el arresto del deudor **hasta por 15 días**, ampliable hasta por 30 en caso de reiteración, cumpliéndolo de noche para que pueda trabajar de día.",
+          "**Pago con la indemnización por años de servicio**: si el deudor es despedido, parte de su indemnización se retiene para pagar la deuda de alimentos.",
+        ],
+      },
+      {
+        t: "note",
+        x: "El arresto por deuda de alimentos es **constitucionalmente válido** en Chile: la prohibición de prisión por deudas no rige para las obligaciones alimentarias, expresamente exceptuadas. No es una pena criminal, sino un **apremio** para forzar el cumplimiento.",
+      },
+      { t: "h2", x: "Paso 3: el Registro Nacional de Deudores (Ley 21.389)" },
+      {
+        t: "p",
+        x: "Si adeudas **3 mensualidades consecutivas o 5 discontinuas**, el tribunal ordena tu inscripción en el [Registro Nacional de Deudores de Pensiones de Alimentos](/blog/registro-nacional-de-deudores), administrado por el Registro Civil. Estar inscrito desencadena bloqueos automáticos:",
+      },
+      {
+        t: "ul",
+        x: [
+          "**Rechazo del pasaporte** y de la licencia de conducir (solicitud o renovación).",
+          "**Retención del 50%** en operaciones de crédito desde 50 UF.",
+          "**Bloqueo de la transferencia** de vehículos e inmuebles del deudor.",
+          "**Inhabilidad** para ciertos beneficios estatales y para asumir o ascender en altos cargos públicos sin regularizar.",
+        ],
+      },
+      { t: "h2", x: "¿La deuda de alimentos prescribe o se borra?" },
+      {
+        t: "p",
+        x: "No desaparece por dejar pasar el tiempo: las cuotas devengadas son exigibles y los apremios pueden pedirse mientras subsista la deuda. Tampoco la **rebaja** futura de la pensión borra lo ya adeudado. La única forma de terminar con las consecuencias es **pagar la deuda** o llegar a un **acuerdo de pago serio y suficiente** aprobado por el juez.",
+      },
+      { t: "h2", x: "¿Qué hacer si de verdad no puedes pagar?" },
+      {
+        t: "p",
+        x: "Si tu situación económica cambió (cesantía, enfermedad), la salida **no es dejar de pagar**: es demandar la [rebaja de la pensión](/blog/como-rebajar-la-pension-de-alimentos) cuanto antes y seguir pagando lo que puedas mientras se resuelve. Acumular deuda solo empeora tu situación: la rebaja rige hacia el futuro y **no elimina** las cuotas ya impagas.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Pueden meterme preso por no pagar la pensión de alimentos?",
+        a: "Pueden decretar tu arresto nocturno hasta por 15 días (ampliable hasta 30 en caso de reiteración) como apremio para forzar el pago. No es una condena penal, sino una medida de apremio: la excepción de la prisión por deudas alimentarias está expresamente reconocida en Chile.",
+      },
+      {
+        q: "¿A partir de cuántas cuotas impagas me inscriben en el Registro de Deudores?",
+        a: "Con 3 mensualidades consecutivas o 5 discontinuas adeudadas, total o parcialmente, el Tribunal de Familia ordena la inscripción en el Registro Nacional de Deudores, previa liquidación de la deuda que se te notifica.",
+      },
+      {
+        q: "¿Me pueden retener la devolución de impuestos por la deuda?",
+        a: "Sí. La Tesorería General de la República retiene la devolución de la operación renta del deudor de alimentos y la destina a pagar lo adeudado al alimentario.",
+      },
+      {
+        q: "¿La deuda de pensión de alimentos prescribe?",
+        a: "No se extingue por el simple paso del tiempo mientras subsista: las cuotas devengadas son exigibles y los apremios pueden solicitarse hasta que se pague. Conviene pedir la liquidación y las medidas en el expediente para hacerla efectiva.",
+      },
+      {
+        q: "Si no puedo pagar, ¿qué hago?",
+        a: "Demanda la rebaja de la pensión apenas cambien tus circunstancias y sigue pagando lo que puedas. Dejar de pagar genera deuda con apremios e inscripción en el Registro. La rebaja rige hacia el futuro y no borra lo ya adeudado.",
+      },
+    ],
+    related: ["registro-nacional-de-deudores", "pension-de-alimentos-chile", "como-rebajar-la-pension-de-alimentos"],
+    sources: [
+      { name: "Ley 14.908 sobre pago de pensiones alimenticias — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=27977" },
+      { name: "Ley 21.389 que crea el Registro Nacional de Deudores — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=1168463" },
+      { name: "Ley Fácil: Registro Nacional de Deudores — BCN", url: "https://www.bcn.cl/portal/leyfacil/recurso/registro-nacional-de-deudores-de-pensiones-de-alimentos" },
+    ],
+  },
+
+  // ───────────────────────────── 12. PENSIÓN PARA HIJOS MAYORES / UNIVERSITARIOS ─────────────────────────────
+  {
+    slug: "pension-de-alimentos-hijos-mayores-universitarios",
+    title:
+      "Pensión de alimentos para hijos mayores de edad y universitarios en Chile",
+    metaTitle: "Pensión de alimentos para hijos mayores y universitarios",
+    description:
+      "¿Hay que pagar pensión de alimentos a un hijo mayor de edad en Chile? Sí: hasta los 21 años, y hasta los 28 si estudia una profesión u oficio. Requisitos, qué se considera estudiar y cuándo cesa la obligación.",
+    category: "Pensión de alimentos",
+    datePublished: "2026-06-18",
+    dateModified: "2026-06-18",
+    readingMinutes: 7,
+    keywords: [
+      "pensión de alimentos hijos mayores de edad",
+      "pensión de alimentos universitarios chile",
+      "hasta qué edad se paga la pensión de alimentos",
+      "pensión alimentos hijo 21 años",
+      "pensión alimentos hijo que estudia",
+    ],
+    lead:
+      "En Chile la pensión de alimentos **no termina al cumplir 18 años**. Se debe **hasta los 21 años** sin más requisitos, y se **extiende hasta los 28 años si el hijo estudia una profesión u oficio** que lo habilite para una actividad laboral. Sin límite de edad si el hijo tiene una **incapacidad** que le impida mantenerse, o cuando el juez lo estime indispensable por circunstancias calificadas (Art. 332 del Código Civil). El cese **no es automático**: si la pensión la pagaba un empleador por retención, conviene **pedir al tribunal** que la declare extinguida.",
+    stats: [
+      { label: "Regla general", value: "Pensión hasta los 21 años" },
+      { label: "Si estudia", value: "Hasta los 28 años (profesión u oficio)" },
+      { label: "Con incapacidad", value: "Sin límite de edad" },
+      { label: "Norma clave", value: "Art. 332 Código Civil" },
+      { label: "Cese", value: "No es automático: conviene pedirlo al tribunal" },
+      { label: "Mediación", value: "Obligatoria para modificar o cesar" },
+    ],
+    blocks: [
+      { t: "h2", x: "¿Hay que pagar pensión a un hijo mayor de 18 años?" },
+      {
+        t: "p",
+        x: "Sí. Es uno de los errores más comunes creer que la [pensión de alimentos](/blog/pension-de-alimentos-chile) termina cuando el hijo cumple **18 años**. La ley chilena la extiende más allá de la mayoría de edad: la obligación se mantiene **hasta los 21 años** de forma general, y puede prolongarse **hasta los 28 años** si el hijo está estudiando. La fuente es el **Art. 332 del Código Civil**.",
+      },
+      { t: "h2", x: "Las reglas de edad, en detalle" },
+      {
+        t: "table",
+        head: ["Situación del hijo", "¿Se debe pensión?", "Hasta cuándo"],
+        rows: [
+          ["Menor de 21 años", "Sí, sin requisitos adicionales", "21 años"],
+          ["Entre 21 y 28 años que estudia", "Sí, si cursa una profesión u oficio", "28 años"],
+          ["Mayor con incapacidad física o mental", "Sí, mientras dure la incapacidad", "Sin límite de edad"],
+          ["Mayor de 21 que no estudia ni tiene incapacidad", "Por regla general, no", "Cesa, salvo causa calificada"],
+        ],
+      },
+      {
+        t: "note",
+        x: "Excepción del Art. 332: aun fuera de esos supuestos, el juez puede mantener los alimentos cuando existan **circunstancias calificadas** que lo hagan indispensable. La regla de edad es el estándar, pero el tribunal pondera la realidad de cada caso.",
+      },
+      { t: "h2", x: "¿Qué significa «que estudie» para extender la pensión a los 28?" },
+      {
+        t: "p",
+        x: "La ley exige que el hijo **esté estudiando una profesión u oficio**. En la práctica esto comprende estudios en la **universidad, instituto profesional o centro de formación técnica**, e incluso la enseñanza de un oficio. No es un cheque en blanco: se entiende referido a estudios **regulares y conducentes** a habilitar al hijo para el trabajo, no a carreras eternas o matrículas meramente formales. El hijo debe acreditar que efectivamente cursa y avanza.",
+      },
+      { t: "h2", x: "¿Quién recibe la pensión cuando el hijo es mayor de edad?" },
+      {
+        t: "p",
+        x: "Mientras el hijo es menor, la pensión la administra el padre o madre que tiene su [cuidado personal](/blog/cuidado-personal-de-los-hijos). Al cumplir la **mayoría de edad**, el hijo pasa a ser **titular** de su derecho de alimentos: puede recibirlos directamente y, si fuera necesario, demandar o intervenir él mismo en la causa. En la práctica, la forma de pago (cuenta de depósito, retención por empleador) suele mantenerse salvo que se solicite cambiarla.",
+      },
+      { t: "h2", x: "El cese de la pensión no es automático" },
+      {
+        t: "p",
+        x: "Cuando el hijo cumple 21 años (y no estudia) o cumple 28, la obligación **deja de tener fundamento legal**, pero la pensión **no se extingue sola** si fue fijada por sentencia y se paga, por ejemplo, mediante retención del empleador. Para detener legalmente el descuento conviene **pedir al Tribunal de Familia que declare el cese** de la obligación, evitando seguir pagando o generar conflictos con el empleador.",
+      },
+      {
+        t: "ol",
+        x: [
+          "**Verifica la causal**: el hijo cumplió 21 y no estudia, o cumplió 28, o cesó la incapacidad.",
+          "**Asiste a mediación**: el cese de alimentos es materia de [mediación previa](/blog/mediacion-familiar-chile). Si hay acuerdo, el acta aprobada por el juez lo formaliza.",
+          "**Demanda el cese** (si no hay acuerdo) ante el Tribunal de Familia, acreditando que ya no concurren los requisitos.",
+          "**Obtén la resolución** que declara extinguida la pensión y, con ella, ordena al empleador dejar de retener.",
+        ],
+      },
+      {
+        t: "note",
+        x: "Cuidado: dejar de pagar **por tu cuenta** cuando crees que el hijo «ya no califica» es riesgoso. Si la sentencia sigue vigente, cada cuota impaga genera **deuda** con [apremios](/blog/que-pasa-si-no-pago-la-pension-de-alimentos). Lo seguro es obtener primero la declaración judicial de cese.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿La pensión de alimentos termina a los 18 años?",
+        a: "No. Se debe hasta los 21 años sin requisitos adicionales, y hasta los 28 si el hijo estudia una profesión u oficio. Con una incapacidad que le impida mantenerse, no hay límite de edad. Cumplir 18 años, por sí solo, no extingue la pensión.",
+      },
+      {
+        q: "¿Hasta qué edad se paga si el hijo está en la universidad?",
+        a: "Hasta los 28 años, siempre que esté efectivamente estudiando una profesión u oficio que lo habilite para trabajar. Debe tratarse de estudios regulares y conducentes; no basta una matrícula formal sin avance.",
+      },
+      {
+        q: "¿Tengo que seguir pagando si mi hijo de 22 no estudia ni trabaja?",
+        a: "Por regla general, no: cumplidos los 21 sin estudiar ni tener una incapacidad, la causa de la pensión desaparece. Pero el juez puede mantenerla por circunstancias calificadas. Para dejar de pagar conviene pedir al tribunal que declare el cese, no suspender los pagos por cuenta propia.",
+      },
+      {
+        q: "¿La pensión se corta sola cuando el hijo cumple la edad?",
+        a: "No automáticamente si la paga un empleador por retención judicial. Conviene pedir al Tribunal de Familia que declare extinguida la obligación para que ordene cesar el descuento; de lo contrario podrían seguir reteniéndola.",
+      },
+      {
+        q: "¿El hijo mayor de edad puede demandar él mismo la pensión?",
+        a: "Sí. Alcanzada la mayoría de edad, el hijo es titular de su derecho de alimentos y puede demandarlos o intervenir directamente en la causa, acreditando que estudia (si tiene entre 21 y 28) o la circunstancia que justifica los alimentos.",
+      },
+    ],
+    related: ["pension-de-alimentos-chile", "como-rebajar-la-pension-de-alimentos", "que-pasa-si-no-pago-la-pension-de-alimentos"],
+    sources: [
+      { name: "Código Civil (Art. 332, duración de los alimentos) — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=172986" },
+      { name: "Ley 14.908 sobre pago de pensiones alimenticias — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=27977" },
+      { name: "Ley Fácil: Pensión alimenticia — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil/recurso/pension-alimenticia-para-menores" },
+    ],
+  },
+
+  // ───────────────────────────── 13. COMPENSACIÓN ECONÓMICA: CÓMO SE CALCULA ─────────────────────────────
+  {
+    slug: "compensacion-economica-divorcio-como-se-calcula",
+    title:
+      "Compensación económica en el divorcio en Chile: qué es y cómo se calcula",
+    metaTitle: "Compensación económica en el divorcio: cómo se calcula (Chile)",
+    description:
+      "Qué es la compensación económica en el divorcio en Chile y cómo se calcula: el menoscabo económico del cónyuge que se dedicó al hogar o los hijos. Factores del Art. 62 de la Ley 19.947, formas de pago y por qué hay que pedirla en la demanda.",
+    category: "Divorcio",
+    datePublished: "2026-06-18",
+    dateModified: "2026-06-18",
+    readingMinutes: 8,
+    keywords: [
+      "compensación económica divorcio chile",
+      "cómo se calcula la compensación económica",
+      "compensación económica art 62",
+      "menoscabo económico divorcio",
+      "compensación económica nulidad matrimonio",
+    ],
+    lead:
+      "La **compensación económica** es el derecho del cónyuge que **se dedicó al cuidado de los hijos o del hogar** y por eso **no pudo trabajar o lo hizo en menor medida** a ser compensado por ese **menoscabo económico** al divorciarse o anularse el matrimonio (Arts. 61 a 66 de la **Ley 19.947**). **No existe una fórmula matemática**: el juez la fija ponderando factores como la **duración del matrimonio**, la edad y salud del cónyuge, su **situación previsional** y sus posibilidades de **acceso al mercado laboral**. Debe pedirse **en la demanda o reconvención**, no después.",
+    stats: [
+      { label: "Quién la pide", value: "El cónyuge que se dedicó al hogar/hijos" },
+      { label: "Qué compensa", value: "El menoscabo económico sufrido" },
+      { label: "Fórmula", value: "No hay; el juez pondera factores legales" },
+      { label: "Cuándo se pide", value: "En la demanda o reconvención (no después)" },
+      { label: "Formas de pago", value: "Dinero, cuotas, bienes o derechos" },
+      { label: "Ley aplicable", value: "Ley 19.947, Arts. 61 a 66" },
+    ],
+    blocks: [
+      { t: "h2", x: "¿Qué es la compensación económica?" },
+      {
+        t: "p",
+        x: "Es una institución del [divorcio](/blog/divorcio-en-chile) (y de la nulidad) que busca **reparar el desequilibrio económico** que sufre el cónyuge que postergó su desarrollo laboral para dedicarse a la familia. La idea de fondo: si durante el matrimonio uno **se hizo cargo del hogar y de los hijos** mientras el otro desarrollaba su carrera y su patrimonio, al separarse el primero queda en clara desventaja —menos ahorros, menos cotizaciones previsionales, menos experiencia laboral—. La compensación económica busca **corregir ese menoscabo**. Está en los **Arts. 61 a 66 de la Ley 19.947**.",
+      },
+      {
+        t: "note",
+        x: "No es una pensión ni un castigo: es un **resarcimiento** por el costo de oportunidad que asumió un cónyuge. Es independiente del [régimen de bienes](/blog/regimen-de-bienes-matrimonio-chile) y se suma —no reemplaza— a la liquidación que corresponda.",
+      },
+      { t: "h2", x: "Requisitos para tener derecho a la compensación" },
+      {
+        t: "ul",
+        x: [
+          "Que el cónyuge **no haya podido trabajar** o lo haya hecho **en menor medida de lo que quería y podía** durante el matrimonio.",
+          "Que ello se deba a haberse **dedicado al cuidado de los hijos o a las labores del hogar común**.",
+          "Que de esa dedicación resulte un **menoscabo económico** verificable al término del matrimonio.",
+        ],
+      },
+      { t: "h2", x: "¿Cómo se calcula? Los factores del Art. 62" },
+      {
+        t: "p",
+        x: "La pregunta del millón: **no hay fórmula aritmética**. El monto lo determina el juez (o lo acuerdan las partes) ponderando, según el **Art. 62 de la Ley 19.947**, especialmente estos factores:",
+      },
+      {
+        t: "ul",
+        x: [
+          "La **duración del matrimonio** y de la vida en común (a mayor duración, mayor suele ser el menoscabo).",
+          "La **situación patrimonial** de ambos cónyuges.",
+          "La **buena o mala fe** de las partes.",
+          "La **edad y el estado de salud** del cónyuge beneficiario.",
+          "Su **situación en materia de beneficios previsionales y de salud** (clave: las lagunas de cotización).",
+          "Su **cualificación profesional** y sus **posibilidades reales de acceso al mercado laboral**.",
+          "La **colaboración** que prestó a las actividades lucrativas del otro cónyuge.",
+        ],
+      },
+      {
+        t: "note",
+        x: "Como el cálculo es casuístico, conocer cómo los tribunales han fijado compensaciones en casos parecidos ayuda mucho a estimar un rango razonable y a negociar. Hoy es posible [consultar jurisprudencia con IA](https://constitucionalai.com/) y revisar en lenguaje natural cómo se ha ponderado el menoscabo económico en sentencias de divorcio.",
+      },
+      { t: "h2", x: "¿Cómo se paga la compensación económica?" },
+      {
+        t: "p",
+        x: "El juez fija la cuantía y también la **forma de pago** (Art. 65). Puede ordenarse:",
+      },
+      {
+        t: "ul",
+        x: [
+          "**Una suma de dinero** pagada de una vez.",
+          "**En cuotas** reajustables, fijando seguridades para su pago (incluso se asimilan a alimentos para efectos de su cumplimiento).",
+          "**Mediante la entrega de bienes** o la constitución de **derechos** (por ejemplo, un usufructo, uso o habitación sobre un bien del cónyuge deudor).",
+        ],
+      },
+      { t: "h2", x: "El error fatal: no pedirla a tiempo" },
+      {
+        t: "p",
+        x: "Este es el punto que más casos arruina. La compensación económica **debe solicitarse dentro del juicio de divorcio o nulidad**: en la **demanda**, en la **reconvención** o, si el demandante no la pidió, el juez debe **informar a las partes** de este derecho al inicio. **No se puede reclamar en un juicio posterior**, una vez dictado el divorcio. Si te divorcias sin pedirla, en principio **pierdes el derecho**.",
+      },
+      {
+        t: "note",
+        x: "Por eso, aunque tu divorcio sea de mutuo acuerdo, revisa con tu abogado si corresponde compensación económica **antes de firmar**. En el divorcio de común acuerdo las partes pueden pactarla libremente en el acuerdo completo y suficiente.",
+      },
+      { t: "h2", x: "¿Se puede acordar de común acuerdo?" },
+      {
+        t: "p",
+        x: "Sí. Si ambos cónyuges son **mayores de edad**, pueden **convenir su monto y forma de pago** en un acuerdo que conste por escritura pública o acta de avenimiento, sometido a la aprobación del tribunal. Es la vía más rápida y la que evita la incertidumbre de que el juez la fije. A falta de acuerdo, decide el tribunal con los factores del Art. 62.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Cómo se calcula el monto de la compensación económica?",
+        a: "No existe una fórmula matemática. El juez fija el monto ponderando los factores del Art. 62 de la Ley 19.947: duración del matrimonio, situación patrimonial, edad y salud del beneficiario, su situación previsional, su cualificación y posibilidades de trabajar, y la colaboración prestada al otro cónyuge.",
+      },
+      {
+        q: "¿Quién puede pedir la compensación económica?",
+        a: "El cónyuge que se dedicó al cuidado de los hijos o a las labores del hogar y por eso no pudo trabajar o lo hizo en menor medida, sufriendo un menoscabo económico. Puede pedirla tanto la mujer como el hombre; la ley no distingue por sexo.",
+      },
+      {
+        q: "¿Hasta cuándo puedo pedir la compensación económica?",
+        a: "Debe pedirse dentro del propio juicio de divorcio o nulidad: en la demanda o en la reconvención. No se puede reclamar en un juicio posterior una vez dictada la sentencia. Si te divorcias sin pedirla, pierdes el derecho.",
+      },
+      {
+        q: "¿La compensación económica es lo mismo que la pensión de alimentos?",
+        a: "No. La pensión de alimentos es para los hijos y subsiste tras el divorcio; la compensación económica es un derecho entre cónyuges que repara el menoscabo de quien se dedicó a la familia. Son figuras distintas e independientes.",
+      },
+      {
+        q: "¿Cómo se paga si el deudor no tiene dinero líquido?",
+        a: "El juez puede fijar el pago en cuotas reajustables con garantías, o mediante la entrega de bienes o la constitución de derechos (usufructo, uso o habitación) sobre bienes del cónyuge deudor, según el Art. 65 de la Ley 19.947.",
+      },
+    ],
+    related: ["divorcio-en-chile", "cuanto-cuesta-un-divorcio-en-chile", "regimen-de-bienes-matrimonio-chile"],
+    sources: [
+      { name: "Ley 19.947 de Matrimonio Civil (Arts. 61 a 66) — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idLey=19947" },
+      { name: "Ley Fácil: El divorcio — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil/recurso/divorcio" },
+    ],
+  },
+
+  // ───────────────────────────── 14. AUTORIZACIÓN DE SALIDA DEL PAÍS DE UN MENOR ─────────────────────────────
+  {
+    slug: "autorizacion-salida-del-pais-menor",
+    title:
+      "Autorización para la salida del país de un menor en Chile: cómo tramitarla",
+    metaTitle: "Autorización de salida del país de un menor en Chile (2026)",
+    description:
+      "Cómo autorizar la salida de un menor de Chile: cuándo se necesita permiso del otro padre, cómo hacerlo ante notario, qué pasa si el padre se niega o no aparece, y la autorización judicial supletoria del Tribunal de Familia.",
+    category: "Cuidado personal",
+    datePublished: "2026-06-18",
+    dateModified: "2026-06-18",
+    readingMinutes: 7,
+    keywords: [
+      "autorización salida del país menor chile",
+      "permiso notarial para viajar con menor",
+      "autorización judicial salida del país menor",
+      "viajar con hijo menor sin el padre",
+      "permiso de salida de menores chile",
+    ],
+    lead:
+      "Para que un menor **salga de Chile**, por regla general se necesita la **autorización de ambos padres** cuando viaja solo o con un tercero, y la del **otro padre** cuando viaja con uno de ellos pero existe un régimen de [cuidado personal](/blog/cuidado-personal-de-los-hijos) o [relación directa y regular](/blog/relacion-directa-y-regular-visitas) fijado. La autorización se otorga ante **notario** (o en el consulado, si se está fuera). Si el otro padre **se niega injustificadamente, está ausente o es desconocido**, se pide la **autorización judicial supletoria** al **Tribunal de Familia** (Art. 49 de la Ley 16.618, Ley de Menores).",
+    stats: [
+      { label: "Regla general", value: "Autorización de ambos padres / del otro padre" },
+      { label: "Cómo se otorga", value: "Ante notario o consulado de Chile" },
+      { label: "Si el padre se niega o está ausente", value: "Autorización judicial supletoria" },
+      { label: "Quién la concede", value: "Tribunal de Familia" },
+      { label: "Norma clave", value: "Art. 49 Ley 16.618 (Ley de Menores)" },
+      { label: "Controla la salida", value: "PDI (Policía de Investigaciones)" },
+    ],
+    blocks: [
+      { t: "h2", x: "¿Cuándo se necesita autorización para que un menor salga de Chile?" },
+      {
+        t: "p",
+        x: "La **Ley de Menores (Ley 16.618)**, en su **Art. 49**, regula la salida de menores del país. La necesidad de autorización depende de **con quién viaja el niño** y de si hay un régimen de cuidado o de relación directa y regular establecido:",
+      },
+      {
+        t: "ul",
+        x: [
+          "**Si los padres viven juntos y no hay régimen fijado** y el menor viaja con uno de ellos: en general no se exige permiso del otro, pero las aerolíneas y la PDI pueden requerir documentación que acredite el vínculo.",
+          "**Si hay cuidado personal o relación directa y regular fijado** (por sentencia o acuerdo) y el menor sale con el padre que tiene el cuidado: se requiere el **permiso del padre que tiene a su favor la relación directa y regular** (las visitas).",
+          "**Si el menor viaja solo, con un tercero o con uno de los padres y la ley lo exige**: se requiere la **autorización de ambos padres** (o de quien tenga el cuidado personal, según el caso).",
+        ],
+      },
+      {
+        t: "note",
+        x: "Quien controla materialmente la salida es la **Policía de Investigaciones (PDI)** en el control migratorio. Por eso conviene llevar la autorización **en original** o protocolizada, junto con el certificado de nacimiento del menor, aunque el viaje parezca sencillo.",
+      },
+      { t: "h2", x: "Cómo otorgar la autorización ante notario" },
+      {
+        t: "p",
+        x: "La autorización voluntaria es un trámite simple. El padre o madre que **consiente** el viaje concurre ante un **notario** y firma una **autorización de salida del país**, indicando los datos del menor, el destino, el período del viaje y con quién viaja.",
+      },
+      {
+        t: "ol",
+        x: [
+          "El padre/madre que autoriza acude a una **notaría** con su **cédula de identidad** y el **certificado de nacimiento** del menor.",
+          "Se redacta y firma la **autorización**, señalando destino, fechas y acompañante del menor.",
+          "El documento queda como **escritura pública** o autorización protocolizada; se entrega copia para presentar en el control migratorio.",
+          "Si quien autoriza está **en el extranjero**, otorga la autorización en el **consulado de Chile** del lugar donde se encuentre.",
+        ],
+      },
+      { t: "h2", x: "¿Qué pasa si el otro padre se niega o no aparece?" },
+      {
+        t: "p",
+        x: "Es la situación más conflictiva. Si el otro padre **se niega sin razón**, está **ausente**, es **desconocido** o no es habido, la salida no queda bloqueada para siempre: se solicita la **autorización judicial supletoria** al **Tribunal de Familia** del domicilio del menor. El juez puede **autorizar el viaje** cuando la negativa sea injustificada o cuando lo exija el interés del niño.",
+      },
+      {
+        t: "ol",
+        x: [
+          "**Demanda o solicitud** de autorización de salida ante el Tribunal de Familia, con abogado (o la CAJ si no puedes pagarlo).",
+          "Se acredita la **negativa, ausencia o paradero desconocido** del otro padre y los **detalles del viaje** (motivo, destino, fechas, regreso).",
+          "El tribunal **cita a audiencia** y oye al otro padre si comparece; pondera el **interés superior del niño**.",
+          "Si autoriza, dicta una **resolución** que reemplaza el permiso faltante y se presenta en el control migratorio.",
+        ],
+      },
+      {
+        t: "note",
+        x: "El juez analiza si el viaje **afecta** el régimen de relación directa y regular del otro padre y si hay riesgo de que el menor **no regrese**. Si el viaje es por un período definido y razonable (vacaciones, visita familiar), suele autorizarse; los viajes con apariencia de traslado definitivo se examinan con más rigor.",
+      },
+      { t: "h2", x: "Salidas sin retorno y sustracción de menores" },
+      {
+        t: "p",
+        x: "La autorización protege también contra la **retención o el traslado ilícito** del menor al extranjero. Sacar a un hijo del país **sin la autorización debida** y no retornarlo puede configurar una **sustracción internacional**, regida por el **Convenio de La Haya de 1980**, que permite pedir su **restitución** al país de residencia habitual. Por eso el sistema de autorizaciones es estricto: busca el equilibrio entre el derecho a viajar y la protección del vínculo con ambos padres.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Necesito permiso del padre para viajar con mi hijo al extranjero?",
+        a: "Depende. Si hay un régimen de cuidado personal o de relación directa y regular fijado, generalmente se requiere la autorización del otro padre. Si el menor viaja solo o con un tercero, se exige la autorización de ambos padres. La autorización se otorga ante notario (o consulado si se está fuera de Chile).",
+      },
+      {
+        q: "¿Qué hago si el otro padre se niega a autorizar el viaje?",
+        a: "Puedes pedir la autorización judicial supletoria al Tribunal de Familia. El juez evalúa el interés superior del niño y puede autorizar la salida si la negativa es injustificada, considerando el motivo, destino, duración del viaje y el riesgo de no retorno.",
+      },
+      {
+        q: "¿La autorización notarial sirve para cualquier viaje?",
+        a: "La autorización indica destino, fechas y acompañante; conviene que cubra el viaje específico. Llévala en original o protocolizada al control migratorio junto con el certificado de nacimiento del menor, porque la PDI puede exigirla.",
+      },
+      {
+        q: "¿Puedo autorizar la salida si estoy en el extranjero?",
+        a: "Sí. Si el padre o madre que debe autorizar está fuera de Chile, otorga la autorización en el consulado chileno del lugar donde se encuentre, y ese documento sirve para el control migratorio.",
+      },
+      {
+        q: "¿Qué pasa si saco a mi hijo del país sin autorización y no lo devuelvo?",
+        a: "Puede configurar una sustracción internacional de menores. El otro padre puede solicitar la restitución al país de residencia habitual del niño conforme al Convenio de La Haya de 1980, además de las consecuencias legales en Chile. Nunca conviene viajar sin la autorización debida.",
+      },
+    ],
+    related: ["cuidado-personal-de-los-hijos", "relacion-directa-y-regular-visitas", "mediacion-familiar-chile"],
+    sources: [
+      { name: "Ley 16.618, Ley de Menores (Art. 49, salida del país) — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idLey=16618" },
+      { name: "Ley 19.968 que crea los Tribunales de Familia — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idLey=19968" },
+      { name: "Ley Fácil: guías legales — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil" },
+    ],
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {
