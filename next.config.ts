@@ -5,6 +5,16 @@ const nextConfig: NextConfig = {
     root: __dirname,
   },
 
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        pathname: "/**",
+      },
+    ],
+  },
+
   async redirects() {
     return [
       {

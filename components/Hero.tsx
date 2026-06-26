@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { WHATSAPP_URL } from "@/lib/site";
 
 export default function Hero() {
@@ -139,108 +140,140 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right column: Compromisos / Trust signals */}
-          <div className="hidden lg:flex flex-col items-center justify-center gap-6">
-            <div className="grid grid-cols-2 gap-4 w-full max-w-sm">
-              {[
-                {
-                  icon: (
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
-                    />
-                  ),
-                  title: "Solo Familia",
-                  label: "Especialistas exclusivos",
-                },
-                {
-                  icon: (
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  ),
-                  title: "1ª Consulta Gratis",
-                  label: "Sin costo ni compromiso",
-                },
-                {
-                  icon: (
-                    <>
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
-                      />
-                    </>
-                  ),
-                  title: "Todo Chile",
-                  label: "Presencial y remota",
-                },
-                {
-                  icon: (
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  ),
-                  title: "Resp. en 24 hrs",
-                  label: "Atención oportuna",
-                },
-              ].map((item) => (
-                <div
-                  key={item.title}
-                  className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-5 text-center hover:bg-white/10 transition-colors"
-                >
-                  <div className="w-10 h-10 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <svg
-                      className="w-5 h-5 text-accent"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth={1.5}
-                    >
-                      {item.icon}
-                    </svg>
-                  </div>
-                  <div className="text-sm font-bold text-white mb-1">
-                    {item.title}
-                  </div>
-                  <div className="text-xs text-blue-200/70">{item.label}</div>
-                </div>
-              ))}
-            </div>
+          {/* Right column: Warm family visual + trust signals */}
+          <div className="hidden lg:block">
+            <div className="relative mx-auto w-full max-w-md">
+              {/* Soft gold glow behind the frame */}
+              <div className="absolute -inset-4 bg-accent/20 rounded-[2rem] blur-2xl" />
 
-            {/* Confidencialidad */}
-            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl px-6 py-4 flex items-center gap-4 w-full max-w-sm">
-              <div className="w-10 h-10 bg-accent/20 rounded-full flex items-center justify-center shrink-0">
-                <svg
-                  className="w-5 h-5 text-accent"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={1.5}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
-                  />
-                </svg>
+              {/* Decorative gold accent frame offset */}
+              <div className="absolute -top-4 -right-4 w-full h-full rounded-3xl border-2 border-accent/40" />
+
+              {/* Photo card */}
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-primary-dark/50 ring-1 ring-white/10">
+                <Image
+                  src="https://images.unsplash.com/photo-1581952976147-5a2d15560349?w=900&q=80&auto=format&fit=crop"
+                  alt="Familia unida en su hogar — papás e hijos compartiendo un momento de cercanía y confianza"
+                  width={900}
+                  height={1000}
+                  priority
+                  sizes="(max-width: 1024px) 0px, 28rem"
+                  className="w-full h-[28rem] object-cover"
+                />
+
+                {/* Warm gradient overlay for legibility + brand tone */}
+                <div className="absolute inset-0 bg-gradient-to-t from-primary-dark/85 via-primary-dark/10 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-tr from-accent/10 via-transparent to-transparent" />
+
+                {/* Floating badge: primera consulta gratuita */}
+                <div className="absolute top-4 left-4 inline-flex items-center gap-2 bg-accent text-primary-dark text-xs font-bold px-3 py-1.5 rounded-full shadow-lg">
+                  <span className="w-1.5 h-1.5 bg-primary-dark rounded-full" />
+                  1ª consulta gratis
+                </div>
+
+                {/* Bottom caption inside the photo */}
+                <div className="absolute bottom-0 left-0 right-0 p-6">
+                  <p className="text-white font-semibold text-lg leading-snug drop-shadow">
+                    Cuidamos lo que más importa: tu familia
+                  </p>
+                  <p className="text-blue-100/90 text-sm mt-1 drop-shadow">
+                    Acompañamiento humano y cercano en cada paso
+                  </p>
+                </div>
               </div>
-              <div className="text-sm text-blue-200/70">
-                <span className="text-white font-semibold">
-                  Confidencialidad garantizada
-                </span>
-                <br />
-                Tu caso está protegido por el secreto profesional
+
+              {/* Trust badges strip below the photo */}
+              <div className="mt-6 grid grid-cols-3 gap-3">
+                {[
+                  {
+                    icon: (
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    ),
+                    title: "1ª gratis",
+                    label: "Sin compromiso",
+                  },
+                  {
+                    icon: (
+                      <>
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                        />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                        />
+                      </>
+                    ),
+                    title: "Todo Chile",
+                    label: "Presencial y remota",
+                  },
+                  {
+                    icon: (
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    ),
+                    title: "24 hrs",
+                    label: "Te respondemos",
+                  },
+                ].map((item) => (
+                  <div
+                    key={item.title}
+                    className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-3 text-center hover:bg-white/10 transition-colors"
+                  >
+                    <div className="w-8 h-8 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-2">
+                      <svg
+                        className="w-4 h-4 text-accent"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth={1.5}
+                      >
+                        {item.icon}
+                      </svg>
+                    </div>
+                    <div className="text-xs font-bold text-white">
+                      {item.title}
+                    </div>
+                    <div className="text-[11px] text-blue-200/70 leading-tight mt-0.5">
+                      {item.label}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Confidencialidad reassurance */}
+              <div className="mt-3 flex items-center gap-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl px-4 py-3">
+                <div className="w-8 h-8 bg-accent/20 rounded-full flex items-center justify-center shrink-0">
+                  <svg
+                    className="w-4 h-4 text-accent"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={1.5}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
+                    />
+                  </svg>
+                </div>
+                <div className="text-xs text-blue-200/80 leading-snug">
+                  <span className="text-white font-semibold">
+                    Confidencialidad garantizada
+                  </span>{" "}
+                  — protegido por el secreto profesional
+                </div>
               </div>
             </div>
           </div>
