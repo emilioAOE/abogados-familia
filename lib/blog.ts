@@ -86,6 +86,10 @@ export const posts: Post[] = [
         ],
       },
       {
+        t: "note",
+        x: "¿Quieres estimar tu caso? Usa la [Calculadora de Pensión de Alimentos](/calculadora-pension-alimentos): ingresas el número de hijos y el ingreso del alimentante y te muestra el mínimo y el máximo legal al instante (referencial).",
+      },
+      {
         t: "p",
         x: "Estos mínimos están en el **Art. 3 de la Ley 14.908** y se calculan sobre el ingreso mínimo mensual ($539.000 desde enero de 2026, reajustable por ley). El mínimo solo puede rebajarse si el alimentante **acredita ante el tribunal que carece de los medios** para pagarlo.",
       },
@@ -1154,7 +1158,7 @@ export const posts: Post[] = [
       { t: "h2", x: "¿Se puede rebajar una pensión de alimentos ya fijada?" },
       {
         t: "p",
-        x: "Sí. Ni el monto acordado en [mediación](/blog/mediacion-familiar-chile) ni el fijado por sentencia son inmodificables. La [pensión de alimentos](/blog/pension-de-alimentos-chile) se fija según dos factores —las **necesidades del hijo** y la **capacidad económica de quien paga**— y si esos factores **cambian sustancialmente**, cualquiera de los padres puede pedir su revisión. La rebaja la pide el **alimentante** (quien paga); el aumento lo pide quien recibe.",
+        x: "Sí. Ni el monto acordado en [mediación](/blog/mediacion-familiar-chile) ni el fijado por sentencia son inmodificables. La [pensión de alimentos](/blog/pension-de-alimentos-chile) se fija según dos factores —las **necesidades del hijo** y la **capacidad económica de quien paga**— y si esos factores **cambian sustancialmente**, cualquiera de los padres puede pedir su revisión. La rebaja la pide el **alimentante** (quien paga); el aumento lo pide quien recibe. Si quieres tener una referencia del rango legal con tus nuevos ingresos, puedes usar la [calculadora de pensión de alimentos](/calculadora-pension-alimentos).",
       },
       {
         t: "note",

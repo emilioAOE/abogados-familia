@@ -40,6 +40,12 @@ export default function Header() {
               Servicios
             </Link>
             <Link
+              href="/calculadora-pension-alimentos"
+              className="text-sm font-semibold text-accent-dark hover:text-primary transition-colors"
+            >
+              Calculadora
+            </Link>
+            <Link
               href="/#metodo"
               className="text-sm font-medium text-gray-600 hover:text-primary transition-colors"
             >
@@ -114,6 +120,13 @@ export default function Header() {
                 onClick={() => setMenuOpen(false)}
               >
                 Servicios
+              </Link>
+              <Link
+                href="/calculadora-pension-alimentos"
+                className="text-sm font-semibold text-accent-dark hover:text-primary px-2 py-1"
+                onClick={() => setMenuOpen(false)}
+              >
+                Calculadora de pensión
               </Link>
               <Link
                 href="/#metodo"

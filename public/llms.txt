@@ -54,6 +54,13 @@ Atención presencial y remota en todo Chile. Ciudades principales atendidas:
 Santiago, Providencia, Las Condes, Maipú, Puente Alto, Viña del Mar,
 Valparaíso, Concepción, La Serena, Antofagasta, Temuco.
 
+## Herramientas
+- https://www.firmafamilia.cl/calculadora-pension-alimentos — Calculadora de
+  pensión de alimentos (Chile, 2026). Estima el mínimo legal (40% de un ingreso
+  mínimo por un hijo, 30% por cada hijo si son dos o más; Art. 3 Ley 14.908) y
+  el máximo legal (50% de las rentas del alimentante; Art. 7). Gratuita y
+  referencial; el monto final lo fija el Tribunal de Familia.
+
 ## Guías legales (contenido en profundidad)
 - https://www.firmafamilia.cl/blog — índice de todas las guías
 - https://www.firmafamilia.cl/blog/pension-de-alimentos-chile — Pensión de

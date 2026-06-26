@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const services = [
   {
     title: "Divorcio y Separación",
@@ -136,6 +138,58 @@ export default function Services() {
             </div>
           ))}
         </div>
+
+        {/* Destacado: Calculadora de pensión de alimentos (imán de leads) */}
+        <Link
+          href="/calculadora-pension-alimentos"
+          className="group mt-10 flex flex-col items-start gap-5 rounded-2xl border border-accent/30 bg-primary p-6 transition-shadow hover:shadow-lg sm:mt-12 sm:flex-row sm:items-center sm:justify-between sm:p-8"
+        >
+          <div className="flex items-start gap-4 sm:items-center">
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-accent/20 text-accent">
+              <svg
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={1.5}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+            <div>
+              <p className="mb-1 text-xs font-semibold uppercase tracking-wider text-accent-light">
+                Herramienta gratuita
+              </p>
+              <h3 className="text-xl font-bold text-white sm:text-2xl">
+                Calcula tu pensión de alimentos
+              </h3>
+              <p className="mt-1 text-sm text-blue-100/80">
+                Estima el mínimo y el máximo legal según la Ley 14.908 en
+                segundos.
+              </p>
+            </div>
+          </div>
+          <span className="inline-flex shrink-0 items-center gap-2 rounded-full bg-accent px-6 py-3 font-bold text-primary-dark transition-transform group-hover:scale-105">
+            Usar calculadora
+            <svg
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              />
+            </svg>
+          </span>
+        </Link>
       </div>
     </section>
   );
