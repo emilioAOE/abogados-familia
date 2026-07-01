@@ -36,11 +36,23 @@ export async function generateMetadata({
       modifiedTime: post.dateModified,
       section: post.category,
       tags: post.keywords,
+      // Reutiliza el OG de la home. La ruta relativa se resuelve con el
+      // metadataBase del layout raíz. Sin esto, los posts no emiten og:image
+      // (openGraph.images no se hereda cuando el hijo define su propio openGraph).
+      images: [
+        {
+          url: "/opengraph-image",
+          width: 1200,
+          height: 630,
+          alt: post.metaTitle,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: post.metaTitle,
       description: post.description,
+      images: ["/opengraph-image"],
     },
   };
 }
