@@ -1699,6 +1699,133 @@ export const posts: Post[] = [
       { name: "Ley Fácil: guías legales — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil" },
     ],
   },
+
+  // ───────────────────────────── 15. RETENCIÓN JUDICIAL DE LA PENSIÓN ─────────────────────────────
+  {
+    slug: "retencion-judicial-pension-alimentos-empleador",
+    title:
+      "Retención judicial de la pensión de alimentos: cómo se descuenta del sueldo",
+    metaTitle: "Retención judicial de la pensión de alimentos por el empleador",
+    description:
+      "Cómo funciona la retención judicial de la pensión de alimentos en Chile (Ley 14.908): cuándo es obligatoria, qué debe hacer el empleador, multas si no retiene, qué pasa con el finiquito al despido y cómo pedirla.",
+    category: "Pensión de alimentos",
+    datePublished: "2026-07-02",
+    dateModified: "2026-07-02",
+    readingMinutes: 7,
+    keywords: [
+      "retención judicial pensión de alimentos",
+      "retención pensión de alimentos empleador",
+      "descuento de pensión de alimentos del sueldo",
+      "ley 14.908 retención judicial",
+      "empleador no retiene pensión de alimentos",
+    ],
+    lead:
+      "Cuando el alimentante es **trabajador dependiente** (o pensionado), la Ley 14.908 establece como **modalidad de pago por defecto** la **retención por el empleador**: la pensión se descuenta directamente de la remuneración y se paga al alimentario, sin pasar por la voluntad del deudor. El empleador que no retiene arriesga una **multa que puede alcanzar el doble de lo que debió retener**, y si el trabajador es despedido, la retención alcanza también las sumas del **finiquito**.",
+    stats: [
+      { label: "Base legal", value: "Arts. 8 y 13 de la Ley 14.908" },
+      { label: "Cuándo es la regla", value: "Alimentante trabajador dependiente o pensionado" },
+      { label: "Quién descuenta", value: "El empleador o la entidad que paga la pensión" },
+      { label: "Si el empleador no retiene", value: "Multa de hasta el doble de lo no retenido" },
+      { label: "Al término del contrato", value: "La retención alcanza el finiquito" },
+      { label: "Independientes", value: "Se usan otras modalidades de pago" },
+    ],
+    blocks: [
+      { t: "h2", x: "¿Qué es la retención judicial de la pensión de alimentos?" },
+      {
+        t: "p",
+        x: "Es la modalidad de pago en que la [pensión de alimentos](/blog/pension-de-alimentos-chile) **se descuenta directamente del sueldo** del alimentante: el tribunal notifica al empleador y este queda legalmente obligado a retener el monto de cada remuneración y pagarlo al alimentario. El dinero nunca pasa por las manos del deudor, lo que elimina el factor «se le olvidó pagar».",
+      },
+      { t: "h2", x: "La regla general: si trabaja con contrato, se paga por retención" },
+      {
+        t: "p",
+        x: "Desde las reformas a la **Ley 14.908**, la retención no es una excepción: es la **regla general**. Las resoluciones que ordenan pagar una pensión — provisoria o definitiva — a cargo de un **trabajador dependiente o de un pensionado** deben establecer la retención por el empleador o la entidad pagadora como modalidad de pago, a menos que el tribunal, por razones fundadas, determine otra forma que garantice el cumplimiento.",
+      },
+      {
+        t: "p",
+        x: "Esto significa que **no necesitas «ganarle» la retención al alimentante**: si trabaja con contrato y la pensión se está fijando recién, corresponde pedirla — y lo normal es que el tribunal la ordene sin más trámite.",
+      },
+      { t: "h2", x: "Cómo funciona en la práctica, paso a paso" },
+      {
+        t: "ol",
+        x: [
+          "**El tribunal notifica al empleador** la resolución que ordena la retención, con el monto (usualmente expresado en UTM) y los datos para el pago.",
+          "**El empleador descuenta la pensión de la liquidación** de sueldo de cada mes, igual que las cotizaciones: el trabajador recibe su remuneración ya rebajada.",
+          "**El empleador paga directamente al alimentario**, por depósito en la cuenta que fijó el tribunal (típicamente una cuenta de ahorro de BancoEstado) y dentro del plazo que la resolución indica.",
+          "**Si el monto cambia** (aumento, rebaja o cese de la pensión), el tribunal notifica la nueva resolución y el empleador ajusta el descuento.",
+        ],
+      },
+      { t: "h2", x: "¿Qué pasa si el empleador no retiene o no paga?" },
+      {
+        t: "p",
+        x: "El empleador notificado que **no practica la retención**, o que retiene y no paga al alimentario, se expone a una **multa a beneficio fiscal que puede alcanzar el doble de la cantidad mandada retener** (art. 13 de la Ley 14.908). El incumplimiento se denuncia en la misma causa de alimentos, con la liquidación de sueldo o los comprobantes como respaldo. Para el trabajador alimentario esto es importante: si el descuento aparece en la liquidación pero la plata no llega, **el problema es del empleador**, y el tribunal puede perseguirlo directamente.",
+      },
+      {
+        t: "note",
+        x: "La retención convive con las demás herramientas de cobro: si igual se acumula deuda, siguen disponibles el [Registro Nacional de Deudores](/blog/registro-nacional-de-deudores), el arresto nocturno, el arraigo y la retención de la devolución de impuestos.",
+      },
+      { t: "h2", x: "Despido o renuncia del alimentante: qué pasa con la retención" },
+      {
+        t: "p",
+        x: "El término del contrato **no deja la pensión en el aire**. El empleador debe informar el término de la relación laboral al tribunal, y la ley contempla que la retención alcance las sumas que se paguen al trabajador con motivo del finiquito — incluida la **indemnización por años de servicio** — para responder por pensiones adeudadas y asegurar la continuidad del pago. Como los montos de un finiquito suelen ser la plata más grande que recibe el deudor en años, conviene revisar que esté bien determinado: esta guía sobre [cómo se calcula correctamente un finiquito](https://www.amparolaboral.cl/blog/errores-finiquito-calculo) explica qué partidas debe incluir y los errores más comunes.",
+      },
+      {
+        t: "p",
+        x: "Después del despido, si el alimentante encuentra un nuevo empleo, corresponde pedir que se **notifique la retención al nuevo empleador**. Mientras tanto, la obligación de pagar la pensión sigue vigente por los demás medios.",
+      },
+      { t: "h2", x: "¿Y si el alimentante trabaja a honorarios o es independiente?" },
+      {
+        t: "p",
+        x: "La retención por empleador requiere un empleador. Si el alimentante boletea, tiene negocio propio o trabaja informalmente, el tribunal fija **otra modalidad**: depósito mensual en la cuenta del alimentario, y frente al incumplimiento operan los apremios y el Registro de Deudores (que retiene créditos y la devolución de renta). Si sabes que el alimentante «se cambió a honorarios» justo para evitar la retención, díselo al tribunal: la capacidad económica se puede acreditar igual con oficios al SII y a los bancos.",
+      },
+      { t: "h2", x: "Cómo pedir la retención judicial" },
+      {
+        t: "ul",
+        x: [
+          "**En la demanda de alimentos**: se solicita desde el inicio, incluso respecto de los alimentos provisorios.",
+          "**En una causa ya terminada**: si la pensión se fijó con otra modalidad y el alimentante paga tarde o deja de pagar, se pide al tribunal **cambiar la modalidad a retención**, acompañando la liquidación de la deuda.",
+          "**Datos útiles para acelerar**: nombre y RUT del empleador, y cualquier antecedente del contrato. Si no los tienes, el tribunal puede oficiar a la AFP o a Previred para ubicar al empleador vigente.",
+        ],
+      },
+      {
+        t: "table",
+        head: ["Situación del alimentante", "Qué pasa con la retención"],
+        rows: [
+          ["Trabajador dependiente", "Retención por el empleador: es la regla general"],
+          ["Pensionado (vejez, invalidez, sobrevivencia)", "Retiene la entidad que paga la pensión"],
+          ["Es despedido o renuncia", "La retención alcanza el finiquito; se notifica al nuevo empleador"],
+          ["Trabaja a honorarios o informal", "Otra modalidad de pago + apremios y Registro de Deudores"],
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "¿Puedo pedir retención judicial si la pensión ya está fijada y me pagan atrasado?",
+        a: "Sí. Puedes pedir al tribunal que cambie la modalidad de pago a retención por el empleador, acompañando los antecedentes del incumplimiento. Es una de las primeras medidas que conviene tomar cuando los depósitos se vuelven irregulares.",
+      },
+      {
+        q: "¿El empleador puede negarse a practicar la retención?",
+        a: "No. Notificado por el tribunal, la retención es obligatoria. Si no la practica, o retiene y no paga, arriesga una multa a beneficio fiscal que puede alcanzar el doble de lo que debió retener, y el alimentario puede denunciarlo en la misma causa.",
+      },
+      {
+        q: "¿Qué pasa si el alimentante cambia de trabajo para evadir la retención?",
+        a: "La obligación no desaparece. El empleador saliente debe informar el término del contrato, la retención alcanza las sumas del finiquito, y una vez conocido el nuevo empleador se le notifica la misma orden. El tribunal puede oficiar a la AFP para ubicar el empleo vigente.",
+      },
+      {
+        q: "¿La retención sirve para cobrar la deuda atrasada o solo la pensión del mes?",
+        a: "Ambas cosas son posibles: además de la pensión mensual, el tribunal puede ordenar retener sumas adicionales para ir pagando una deuda liquidada, y retenciones extraordinarias sobre pagos como el finiquito. La deuda ya devengada no se extingue por el solo hecho de que empiece la retención.",
+      },
+      {
+        q: "¿Pueden despedir al trabajador porque le llegó una orden de retención?",
+        a: "No es una causal de despido. La retención judicial es una carga administrativa que el empleador debe cumplir, y un despido motivado en ella sería revisable ante los tribunales laborales como despido injustificado.",
+      },
+    ],
+    related: ["pension-de-alimentos-chile", "registro-nacional-de-deudores", "que-pasa-si-no-pago-la-pension-de-alimentos"],
+    sources: [
+      { name: "Ley 14.908 sobre pago de pensiones alimenticias — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=27977" },
+      { name: "Ley Fácil: Pensión alimenticia — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil/recurso/pension-alimenticia-para-menores" },
+      { name: "Ley 21.389 (Registro Nacional de Deudores) — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=1168463" },
+    ],
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {
