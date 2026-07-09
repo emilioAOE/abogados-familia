@@ -1826,6 +1826,110 @@ export const posts: Post[] = [
       { name: "Ley 21.389 (Registro Nacional de Deudores) — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=1168463" },
     ],
   },
+  {
+    slug: "bien-familiar-que-pasa-con-la-casa-en-el-divorcio",
+    title:
+      "¿Quién se queda con la casa? El bien familiar en la separación y el divorcio",
+    metaTitle: "Bien familiar: qué pasa con la casa en el divorcio (Chile)",
+    description:
+      "Qué es la declaración de bien familiar en Chile (arts. 141 y ss. del Código Civil), cómo protege la vivienda de la familia, qué pasa con la casa al divorciarse y cómo se resuelve cuando la propiedad es común y uno no quiere vender.",
+    category: "Régimen de bienes",
+    datePublished: "2026-07-09",
+    dateModified: "2026-07-09",
+    readingMinutes: 8,
+    keywords: [
+      "bien familiar Chile",
+      "quién se queda con la casa en el divorcio",
+      "declaración de bien familiar",
+      "casa familiar divorcio",
+      "vivienda familiar separación",
+    ],
+    lead:
+      "«¿Quién se queda con la casa?» es una de las primeras preguntas cuando una pareja se separa. La respuesta depende de **dos cosas distintas** que conviene no confundir: **de quién es** la propiedad (el título) y **quién puede seguir viviendo en ella** protegido por la ley. La figura del **bien familiar** (arts. 141 y siguientes del Código Civil) resuelve la segunda: protege la vivienda donde vive la familia aunque pertenezca a uno solo de los cónyuges.",
+    stats: [
+      { label: "Base legal", value: "Arts. 141 a 149 del Código Civil" },
+      { label: "Qué protege", value: "La vivienda que sirve de residencia principal de la familia" },
+      { label: "Efecto principal", value: "No se puede vender, gravar ni arrendar sin autorización del otro cónyuge" },
+      { label: "Quién lo pide", value: "El cónyuge no propietario, ante el tribunal de familia" },
+      { label: "No cambia", value: "La propiedad: el dueño sigue siendo el mismo" },
+    ],
+    blocks: [
+      { t: "h2", x: "Propiedad vs. derecho a habitar: dos cosas distintas" },
+      {
+        t: "p",
+        x: "Antes de pelear por la casa, hay que separar dos preguntas. La primera es **de quién es** legalmente: eso lo define el título de dominio y el [régimen de bienes del matrimonio](/blog/regimen-de-bienes-matrimonio-chile) (sociedad conyugal, separación de bienes o participación en los gananciales). La segunda es **quién tiene derecho a seguir viviendo ahí** con los hijos: eso lo resuelve, en buena parte, la figura del **bien familiar**. Una casa puede ser de propiedad exclusiva de uno de los cónyuges y, aun así, quedar protegida como bien familiar en favor del otro y de los hijos.",
+      },
+      { t: "h2", x: "Qué es la declaración de bien familiar" },
+      {
+        t: "p",
+        x: "El **bien familiar** es el inmueble de propiedad de uno o ambos cónyuges que **sirve de residencia principal de la familia** (art. 141 del Código Civil). También pueden declararse familiares los muebles que guarnecen el hogar. La declaración la puede pedir el **cónyuge no propietario** ante el tribunal de familia, y su gran efecto es proteger el techo de la familia frente a decisiones unilaterales del dueño.",
+      },
+      {
+        t: "note",
+        x: "Ojo: la declaración de bien familiar **no traspasa la propiedad**. El dueño sigue siendo el mismo. Lo que cambia es que ya no puede disponer libremente del inmueble.",
+      },
+      { t: "h2", x: "Qué protege en concreto" },
+      {
+        t: "p",
+        x: "Declarado el bien familiar, el cónyuge propietario **no puede vender, hipotecar, gravar ni arrendar** el inmueble sin la **autorización del otro cónyuge** (art. 142 del Código Civil). Si lo hace sin esa autorización, el acto es anulable. Es una defensa potente contra la típica maniobra de «vender la casa a espaldas del otro» en medio de una crisis de pareja.",
+      },
+      { t: "h2", x: "Qué pasa con la casa al divorciarse" },
+      {
+        t: "p",
+        x: "El divorcio **no desafecta automáticamente** el bien familiar. La condición de bien familiar puede mantenerse mientras la vivienda siga cumpliendo su función, y para dejarla sin efecto normalmente se requiere una resolución judicial. Además, al regular los efectos del quiebre, el juez puede **constituir derechos de usufructo, uso o habitación** sobre el inmueble a favor del cónyuge que queda a cargo de los hijos (art. 147 del Código Civil), como una forma de asegurar la vivienda de los niños.",
+      },
+      {
+        t: "p",
+        x: "Esto se conecta con otras dos instituciones del divorcio: el **cuidado personal** de los hijos (quién los tiene define, muchas veces, quién permanece en la casa) y la **compensación económica**, que puede considerar el menoscabo del cónyuge que se dedicó a la familia. Conviene mirarlas juntas y no pieza por pieza.",
+      },
+      { t: "h2", x: "¿Y si la casa es de los dos y uno quiere vender?" },
+      {
+        t: "p",
+        x: "Cuando el inmueble es **común** —comprado durante la sociedad conyugal o inscrito a nombre de ambos—, tras el divorcio queda una **comunidad** entre los ex cónyuges. Ahí el problema deja de ser familiar y pasa a ser de **propiedad**: si uno quiere vender y el otro se niega, nadie está obligado a permanecer en la comunidad y existe el camino de forzar la venta o la partición. Este cruce es frecuente y tiene reglas propias; si es tu caso, revisa qué se puede hacer [cuando tu ex no quiere vender la casa que comparten](https://www.resuelvepropiedades.cl/blog/mi-ex-no-quiere-vender-la-casa/), porque la partición y la venta en pública subasta son alternativas reales para salir del empate.",
+      },
+      {
+        t: "table",
+        head: ["Situación de la casa", "Qué determina quién la usa o la vende"],
+        rows: [
+          ["Propiedad de un solo cónyuge", "El dueño mantiene el título, pero si es bien familiar no puede disponer sin autorización del otro"],
+          ["Declarada bien familiar", "Se protege como vivienda; el juez puede dar usufructo/uso/habitación al cónyuge con los hijos"],
+          ["Común (sociedad conyugal o ambos titulares)", "Se liquida o parte; si uno no quiere vender, procede la partición o venta forzada"],
+        ],
+      },
+      { t: "h2", x: "Cómo se pide la declaración de bien familiar" },
+      {
+        t: "ul",
+        x: [
+          "**Ante el tribunal de familia**, mediante demanda o solicitud del cónyuge no propietario.",
+          "Con la sola presentación de la demanda, el inmueble puede quedar **provisoriamente** como familiar mientras se tramita, para evitar ventas apresuradas.",
+          "Sirve tanto **durante el matrimonio** (cuando aún no hay divorcio) como dentro del propio juicio de divorcio o separación.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "¿La declaración de bien familiar me hace dueño de la casa?",
+        a: "No. El bien familiar no cambia la propiedad: el dueño sigue siendo quien figura en el título. Lo que hace es proteger la vivienda de la familia, impidiendo que se venda, hipoteque o arriende sin la autorización del otro cónyuge.",
+      },
+      {
+        q: "¿Puedo impedir que mi cónyuge venda la casa donde viven los hijos?",
+        a: "Sí, pidiendo que se declare bien familiar. Declarado, cualquier venta, hipoteca o arriendo requiere tu autorización, y el acto hecho sin ella es anulable. Con la sola presentación de la solicitud el inmueble puede quedar protegido de forma provisoria.",
+      },
+      {
+        q: "¿El divorcio termina con el bien familiar?",
+        a: "No automáticamente. La condición de bien familiar puede subsistir mientras la vivienda cumpla su función, y para desafectarla suele requerirse resolución judicial. Además, el juez puede constituir usufructo, uso o habitación a favor del cónyuge que queda con el cuidado de los hijos.",
+      },
+      {
+        q: "¿Qué pasa si la casa es de los dos y no nos ponemos de acuerdo para venderla?",
+        a: "Al divorciarse queda una comunidad entre ambos. Nadie está obligado a permanecer en ella: si uno se niega a vender, se puede pedir la partición e incluso la venta en pública subasta para dividir el dinero. Es un problema de derecho de propiedad, distinto del bien familiar.",
+      },
+    ],
+    related: ["regimen-de-bienes-matrimonio-chile", "divorcio-en-chile", "compensacion-economica-divorcio-como-se-calcula"],
+    sources: [
+      { name: "Código Civil, arts. 141 y siguientes (bienes familiares) — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=172986" },
+      { name: "Ley Fácil: Bien familiar — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil" },
+    ],
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {
