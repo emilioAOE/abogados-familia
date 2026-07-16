@@ -1930,6 +1930,125 @@ export const posts: Post[] = [
       { name: "Ley Fácil: Bien familiar — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil" },
     ],
   },
+
+  // ───────────────────────────── 17. AUMENTO DE LA PENSIÓN DE ALIMENTOS ─────────────────────────────
+  {
+    slug: "como-aumentar-la-pension-de-alimentos",
+    title:
+      "Aumento de la pensión de alimentos: cuándo procede y cómo se demanda",
+    metaTitle: "Aumento de la pensión de alimentos en Chile: cuándo y cómo pedirlo",
+    description:
+      "Cómo pedir un aumento de la pensión de alimentos en Chile: qué cambio de circunstancias exige la ley (art. 332 del Código Civil y Ley 14.908), ante qué tribunal se demanda, qué pruebas reunir y desde cuándo rige el nuevo monto.",
+    category: "Pensión de alimentos",
+    datePublished: "2026-07-16",
+    dateModified: "2026-07-16",
+    readingMinutes: 7,
+    keywords: [
+      "aumento pensión de alimentos",
+      "demanda de aumento de pensión de alimentos",
+      "cómo aumentar la pensión de alimentos",
+      "aumento de pensión alimenticia Chile",
+      "cambio de circunstancias pensión de alimentos",
+    ],
+    lead:
+      "La pensión de alimentos **no queda congelada para siempre**. Si las necesidades del hijo crecieron — entró al colegio o a la universidad, tiene nuevos gastos de salud — o si el alimentante hoy **gana más** que cuando se fijó el monto, la ley permite demandar un **aumento de la pensión**. La base está en el art. 332 del Código Civil: los alimentos se deben mientras **continúen las circunstancias** que justificaron el monto; si esas circunstancias cambiaron, el monto puede revisarse ante el tribunal de familia.",
+    stats: [
+      { label: "Base legal", value: "Ley 14.908 y arts. 323 y 332 del Código Civil" },
+      { label: "Requisito central", value: "Cambio de circunstancias: más necesidades del hijo o más capacidad del alimentante" },
+      { label: "Dónde se demanda", value: "El mismo tribunal que fijó la pensión o el del nuevo domicilio del alimentario" },
+      { label: "Trámite previo", value: "Mediación familiar obligatoria" },
+      { label: "Tope legal", value: "Por regla general, la pensión no puede exceder el 50% de las rentas del alimentante" },
+      { label: "Mínimo legal", value: "40% del ingreso mínimo por un hijo; 30% por cada uno si son dos o más" },
+    ],
+    blocks: [
+      { t: "h2", x: "¿Se puede aumentar una pensión ya fijada por el tribunal?" },
+      {
+        t: "p",
+        x: "Sí. La sentencia, el avenimiento o el acuerdo de mediación que fijó la [pensión de alimentos](/blog/pension-de-alimentos-chile) **no es inamovible**: en materia de alimentos la decisión vale «mientras continúen las circunstancias» que la justificaron (art. 332 del Código Civil). Un hijo de 4 años no cuesta lo mismo que uno de 14, y un alimentante que boleteaba esporádicamente puede hoy tener contrato indefinido y el doble de ingresos. Cuando la foto cambió, se puede demandar el aumento.",
+      },
+      { t: "h2", x: "Cuándo procede el aumento: el cambio de circunstancias" },
+      {
+        t: "ul",
+        x: [
+          "**Aumentaron las necesidades del hijo**: entrada al colegio o a la universidad, tratamientos médicos o dentales, actividades extraprogramáticas, alza sostenida del costo de vida del hogar donde vive.",
+          "**Mejoró la capacidad económica del alimentante**: ascenso, nuevo empleo, término del pago de otras cargas, nuevos bienes o rentas.",
+          "**La pensión quedó bajo el mínimo legal**: la Ley 14.908 fija un piso de **40% de un ingreso mínimo remuneracional por un hijo** (30% por cada uno si son dos o más); si lo pactado quedó por debajo sin justificación, hay argumento directo para revisar.",
+          "**El monto se fijó con información incompleta**: por ejemplo, el alimentante ocultó ingresos que ahora se pueden acreditar.",
+        ],
+      },
+      {
+        t: "note",
+        x: "No confundas **aumento** con **reajuste**: las pensiones se expresan normalmente en UTM, por lo que se reajustan solas mes a mes. El reajuste mantiene el valor de lo ya fijado; el aumento cambia el monto porque cambiaron las circunstancias. Si lo que ocurrió es lo contrario — el alimentante perdió capacidad de pago —, el camino es la [rebaja de la pensión](/blog/como-rebajar-la-pension-de-alimentos).",
+      },
+      { t: "h2", x: "Cuánto pedir: los números importan" },
+      {
+        t: "p",
+        x: "El tribunal resuelve con la misma lógica con que se fija toda pensión: **necesidades del alimentario** y **capacidad económica del alimentante**, con el tope de que la pensión, por regla general, **no puede exceder el 50% de las rentas** del obligado (art. 7° de la Ley 14.908). Pedir una cifra antojadiza debilita la demanda; pedir de menos regala plata. Antes de ponerle número conviene hacer un cálculo realista: esta guía sobre [cuánto pedir de aumento según los ingresos y gastos acreditables](https://www.cuantojuicio.cl/blog/aumento-pension-alimentos-cuanto-pedir) ayuda a dimensionar un monto defendible con los antecedentes que efectivamente puedes probar.",
+      },
+      { t: "h2", x: "Dónde y cómo se tramita la demanda de aumento" },
+      {
+        t: "ol",
+        x: [
+          "**Mediación familiar previa**: el aumento de alimentos es materia de mediación obligatoria. Si hay acuerdo, se aprueba por el tribunal y tiene valor de sentencia; si no, se levanta el acta de mediación frustrada que habilita para demandar.",
+          "**Demanda ante el tribunal competente**: la Ley 14.908 permite elegir entre **el mismo tribunal que decretó la pensión** o el del **nuevo domicilio del alimentario** (art. 2°). Esto ayuda cuando el hijo se cambió de ciudad.",
+          "**Aumento provisorio**: junto con la demanda puede pedirse que el tribunal fije un aumento provisorio mientras dura el juicio, con los antecedentes que se acompañen.",
+          "**Audiencias y sentencia**: el juicio sigue el procedimiento ordinario de familia — audiencia preparatoria y de juicio — y termina con la sentencia que fija el nuevo monto.",
+        ],
+      },
+      { t: "h2", x: "Qué pruebas conviene reunir" },
+      {
+        t: "ul",
+        x: [
+          "**Gastos actuales del hijo**: matrícula y mensualidad escolar o universitaria, útiles, salud (bonos, programas médicos, tratamientos), vestuario, transporte, actividades.",
+          "**Ingresos del alimentante**: liquidaciones de sueldo, boletas de honorarios, contratos. Si no los tienes, el tribunal puede recabar la **carpeta tributaria del SII**, oficiar a bancos, AFP y empleadores para acreditar la capacidad económica real.",
+          "**El contraste con la pensión vigente**: copia de la sentencia o acta que fijó el monto original y una liquidación simple que muestre cuánto cubre hoy del costo real del hijo.",
+        ],
+      },
+      { t: "h2", x: "Desde cuándo rige el aumento" },
+      {
+        t: "p",
+        x: "Lo usual es que el aumento decretado rija **desde la notificación de la demanda**, no desde la fecha de la sentencia — el juicio puede tardar meses y ese período no se pierde. Fijado el nuevo monto, si la pensión se paga por [retención judicial en el sueldo](/blog/retencion-judicial-pension-alimentos-empleador), el tribunal notifica al empleador para que ajuste el descuento; y si el alimentante deja de pagar el monto aumentado, operan las mismas herramientas de cobro de siempre, incluido el [Registro Nacional de Deudores](/blog/registro-nacional-de-deudores).",
+      },
+      {
+        t: "table",
+        head: ["Situación", "Camino que corresponde"],
+        rows: [
+          ["El hijo entró a la universidad y los gastos subieron", "Demanda de aumento por cambio de circunstancias"],
+          ["El alimentante ascendió o duplicó sus ingresos", "Demanda de aumento por mayor capacidad económica"],
+          ["La pensión perdió valor por la inflación", "Nada que demandar: expresada en UTM se reajusta sola"],
+          ["El alimentante quedó cesante o enfermo", "Es él quien puede demandar rebaja de la pensión"],
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "¿Cada cuánto tiempo se puede pedir un aumento de la pensión?",
+        a: "No hay un plazo mínimo entre una revisión y otra. Lo que exige la ley es un cambio de circunstancias real y demostrable: más necesidades del hijo o más capacidad económica del alimentante. Si nada cambió desde la última fijación, la demanda difícilmente prosperará.",
+      },
+      {
+        q: "¿Necesito abogado para demandar el aumento?",
+        a: "Por regla general sí: en los tribunales de familia las partes deben comparecer patrocinadas por abogado. Si no puedes costear uno, la Corporación de Asistencia Judicial ofrece representación gratuita según requisitos socioeconómicos.",
+      },
+      {
+        q: "¿Qué pasa si el alimentante oculta sus ingresos reales?",
+        a: "El tribunal tiene herramientas para investigarlos: puede recabar la carpeta tributaria del SII y oficiar a bancos, AFP y empleadores. Trabajar a honorarios o de manera informal no impide acreditar la capacidad económica por estas vías.",
+      },
+      {
+        q: "¿El aumento rige desde que demando o desde la sentencia?",
+        a: "La regla usual es que rija desde la notificación de la demanda de aumento. Por eso conviene demandar apenas se configura el cambio de circunstancias: los meses de tramitación quedan cubiertos por el nuevo monto.",
+      },
+      {
+        q: "¿Puede el alimentante responder pidiendo una rebaja?",
+        a: "Sí, puede demandar reconvencionalmente la rebaja o el cese en el mismo juicio. El tribunal resolverá ambas pretensiones con la prueba de necesidades y capacidad económica que aporten las partes.",
+      },
+    ],
+    related: ["pension-de-alimentos-chile", "como-rebajar-la-pension-de-alimentos", "retencion-judicial-pension-alimentos-empleador"],
+    sources: [
+      { name: "Ley 14.908 sobre pago de pensiones alimenticias — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=27977" },
+      { name: "Código Civil, arts. 323 y 332 (alimentos) — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=172986" },
+      { name: "Ley Fácil: Pensión alimenticia — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil/recurso/pension-alimenticia-para-menores" },
+    ],
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {
