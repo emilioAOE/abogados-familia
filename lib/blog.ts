@@ -2049,6 +2049,159 @@ export const posts: Post[] = [
       { name: "Ley Fácil: Pensión alimenticia — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil/recurso/pension-alimenticia-para-menores" },
     ],
   },
+  // ───────────────────────── LIQUIDACIÓN DE LA SOCIEDAD CONYUGAL ─────────────────────────
+  {
+    slug: "liquidacion-sociedad-conyugal-como-se-reparten-los-bienes",
+    title:
+      "Liquidación de la sociedad conyugal: cómo se reparten los bienes después del divorcio",
+    metaTitle: "Liquidación de la sociedad conyugal en Chile: cómo se reparten los bienes",
+    description:
+      "El divorcio disuelve la sociedad conyugal, pero no reparte los bienes: eso es la liquidación. Qué entra en los gananciales, qué son las recompensas, cómo se hace por escritura pública o ante un juez partidor y qué pasa si el otro se niega.",
+    category: "Régimen de bienes",
+    datePublished: "2026-08-10",
+    dateModified: "2026-08-10",
+    readingMinutes: 8,
+    keywords: [
+      "liquidación sociedad conyugal",
+      "cómo se reparten los bienes en el divorcio",
+      "gananciales Chile",
+      "disolución sociedad conyugal",
+      "partición de bienes matrimonio",
+    ],
+    lead:
+      "La sentencia de divorcio **termina el matrimonio y disuelve la sociedad conyugal**, pero no reparte nada: los bienes quedan en una **comunidad** entre los dos excónyuges hasta que se liquide. La liquidación es el trámite que separa los bienes propios de cada uno, calcula las **recompensas** que se deben entre sí y divide los **gananciales por mitades** (art. 1774 del Código Civil). Puede hacerse de común acuerdo por escritura pública o, si no hay acuerdo, ante un **juez partidor**. Mientras no se haga, la casa, el auto y las cuentas siguen siendo de ambos.",
+    stats: [
+      { label: "Qué la disuelve", value: "Divorcio, nulidad, muerte o pacto de separación total de bienes (arts. 1723 y 1764 del Código Civil)" },
+      { label: "Cómo se dividen los gananciales", value: "Por mitades entre los cónyuges, cualquiera sea lo aportado (art. 1774)" },
+      { label: "Formas de liquidar", value: "Acuerdo por escritura pública o partición ante juez árbitro (arbitraje forzoso)" },
+      { label: "Plazo para liquidar", value: "No hay plazo fatal: nadie está obligado a permanecer en la indivisión (art. 1317)" },
+      { label: "Protección de la mujer", value: "Beneficio de emolumento (art. 1777) y opción de renunciar a los gananciales (art. 1781)" },
+    ],
+    blocks: [
+      { t: "h2", x: "Divorciarse no es repartir los bienes" },
+      {
+        t: "p",
+        x: "Es la confusión más común y la que más problemas causa años después. El [divorcio](/blog/divorcio-en-chile) pone término al matrimonio y, con ello, **disuelve** la sociedad conyugal (art. 1764 del Código Civil). Pero disolver no es dividir: lo que queda es una **comunidad** entre los dos excónyuges sobre todos los bienes sociales. La casa sigue siendo de ambos, el auto sigue siendo de ambos, y ninguno puede vender por su cuenta. Repartir requiere un paso adicional: la **liquidación**.",
+      },
+      {
+        t: "note",
+        x: "No confundas la liquidación con la **compensación económica**. La liquidación divide bienes; la compensación repara el menoscabo económico de quien no pudo desarrollar una actividad remunerada por dedicarse al hogar o a los hijos. Son cosas distintas y pueden coexistir en el mismo caso: revisa [cómo se calcula la compensación económica](/blog/compensacion-economica-divorcio-como-se-calcula).",
+      },
+      { t: "h2", x: "Qué se reparte: haber social, bienes propios y gananciales" },
+      {
+        t: "p",
+        x: "Antes de dividir hay que separar. En una sociedad conyugal conviven varias masas de bienes, y el trabajo técnico de la liquidación consiste justamente en distinguirlas:",
+      },
+      {
+        t: "ul",
+        x: [
+          "**Haber social**: lo adquirido a título oneroso durante el matrimonio (las remuneraciones de ambos, la casa comprada estando casados, el auto, los ahorros del período). Esto es lo que se divide.",
+          "**Bienes propios de cada cónyuge**: los que cada uno tenía antes de casarse y los adquiridos durante el matrimonio a título gratuito (herencias, donaciones, legados). Estos **se retiran** y no entran al reparto.",
+          "**Bienes reservados de la mujer (art. 150)**: los que la mujer adquirió con el producto de su trabajo separado del marido. Forman un patrimonio propio que ella administra, con reglas especiales al momento de liquidar.",
+        ],
+      },
+      {
+        t: "p",
+        x: "Hecha esa separación y pagadas las deudas sociales, lo que queda son los **gananciales**, y se dividen **por mitades** (art. 1774). Este punto sorprende a mucha gente: no importa quién ganó más ni quién puso más para comprar la casa. Si el bien es social, la división es mitad y mitad. Sobre las diferencias entre regímenes, revisa la guía de [régimen de bienes del matrimonio](/blog/regimen-de-bienes-matrimonio-chile).",
+      },
+      { t: "h2", x: "Las recompensas: la contabilidad interna del matrimonio" },
+      {
+        t: "p",
+        x: "Durante años los patrimonios se mezclan, y la ley lleva la cuenta. Las **recompensas** son los créditos que una masa de bienes le debe a otra, y ajustan el reparto para que nadie se enriquezca a costa del otro. Ejemplos típicos:",
+      },
+      {
+        t: "ul",
+        x: [
+          "Se usó **dinero social** para pagar el dividendo de un departamento que era **bien propio** de uno de los cónyuges: la sociedad tiene recompensa contra ese cónyuge.",
+          "Se vendió un bien recibido en **herencia** por uno de los cónyuges y con ese dinero se adquirió algo que quedó en el haber social: ese cónyuge tiene recompensa contra la sociedad.",
+          "Se pagaron con fondos sociales **deudas personales** anteriores al matrimonio.",
+          "Se hicieron **mejoras significativas** con dinero social en un bien propio del otro.",
+        ],
+      },
+      {
+        t: "p",
+        x: "Reunir los respaldos de estos movimientos —escrituras, comprobantes de dividendos, cartolas, la posesión efectiva de la herencia— es lo que marca la diferencia entre una liquidación equilibrada y una en la que uno de los dos pierde plata sin darse cuenta.",
+      },
+      { t: "h2", x: "Las dos formas de liquidar" },
+      {
+        t: "ol",
+        x: [
+          "**De común acuerdo**: siendo ambos capaces, los excónyuges pueden liquidar por sí mismos. En la práctica se hace por **escritura pública**, donde se inventarían y tasan los bienes, se determinan las recompensas y se adjudica a cada uno lo que le corresponde. Si hay inmuebles, la escritura debe **inscribirse en el Conservador de Bienes Raíces**; sin esa inscripción, en los registros la propiedad sigue apareciendo como antes.",
+          "**Ante un juez partidor**: si no hay acuerdo, la partición es materia de **arbitraje forzoso**. Se designa un juez árbitro —de común acuerdo o, a falta de él, por el tribunal ordinario— que tramita el juicio particional, resuelve las discusiones sobre qué bien es social o propio, fija las recompensas y adjudica. Es más lento y más caro, pero es la salida cuando la conversación está bloqueada.",
+        ],
+      },
+      { t: "h2", x: "Qué pasa si el otro se niega a liquidar" },
+      {
+        t: "p",
+        x: "Es el escenario más frecuente: uno quiere vender y repartir, y el otro simplemente no responde, sigue viviendo en la casa o deja pasar los años. La buena noticia es que **nadie está obligado a permanecer en la indivisión**: el art. 1317 del Código Civil permite pedir la partición en cualquier momento, y el otro comunero no puede impedirlo. Cuando el bien principal es un inmueble que no admite división cómoda, el camino termina siendo [forzar la partición cuando el otro se niega a dividir la propiedad](https://www.resuelvepropiedades.cl/blog/particion-forzada-propiedad-chile/), que puede concluir con la venta en subasta y el reparto del precio entre ambos. Saber que esa vía existe suele ser, por sí solo, lo que destraba la negociación.",
+      },
+      {
+        t: "note",
+        x: "Si la casa fue declarada **bien familiar**, la liquidación no borra esa protección: el bien sigue afecto y su enajenación requiere la autorización del cónyuge en cuyo favor se declaró. Sobre cómo funciona esa figura, revisa [qué pasa con la casa en el divorcio](/blog/bien-familiar-que-pasa-con-la-casa-en-el-divorcio).",
+      },
+      { t: "h2", x: "Dos protecciones que conviene conocer" },
+      {
+        t: "ul",
+        x: [
+          "**Beneficio de emolumento (art. 1777)**: la mujer no responde de las deudas sociales más allá de su mitad de gananciales. La liquidación no puede dejarla debiendo más de lo que recibió.",
+          "**Renuncia a los gananciales (art. 1781)**: la mujer —o sus herederos— puede renunciar a los gananciales, en las capitulaciones matrimoniales o después de disuelta la sociedad. Al renunciar no participa del reparto, pero **conserva sus bienes reservados del art. 150** y no responde de las deudas sociales. Es una decisión estratégica que solo conviene cuando la sociedad está más endeudada que capitalizada, y siempre con asesoría previa.",
+        ],
+      },
+      { t: "h2", x: "Cuándo conviene apurarse" },
+      {
+        t: "ul",
+        x: [
+          "Cuando **hay un inmueble con hipoteca vigente**: mientras no se liquide y se reestructure el crédito, ambos siguen figurando frente al banco.",
+          "Cuando **uno de los dos administra de hecho** los bienes comunes y percibe frutos o arriendos sin rendir cuenta.",
+          "Cuando existe **riesgo de embargos** por deudas personales de uno de los excónyuges.",
+          "Cuando **uno vuelve a formar familia**: dejar la comunidad abierta enreda la herencia futura y expone a los hijos a un juicio particional años después.",
+        ],
+      },
+      {
+        t: "table",
+        head: ["Situación", "Qué corresponde hacer"],
+        rows: [
+          ["Se divorciaron y nunca liquidaron", "Los bienes siguen en comunidad: liquidar por escritura pública o pedir la partición"],
+          ["Hay acuerdo total sobre el reparto", "Escritura pública de liquidación e inscripción en el Conservador si hay inmuebles"],
+          ["El otro no responde ni firma", "Solicitar la designación de juez partidor (arbitraje forzoso)"],
+          ["Se pagó con dinero social un bien propio del otro", "Hacer valer la recompensa a favor de la sociedad en la liquidación"],
+          ["La sociedad tiene más deudas que bienes", "Evaluar la renuncia a los gananciales con asesoría"],
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "¿El divorcio reparte automáticamente los bienes?",
+        a: "No. El divorcio disuelve la sociedad conyugal, pero los bienes quedan en comunidad entre los excónyuges hasta que se liquiden. Mientras eso no ocurra, ninguno puede vender por su cuenta un bien social y ambos siguen figurando como titulares.",
+      },
+      {
+        q: "¿Cómo se dividen los gananciales si uno ganaba mucho más que el otro?",
+        a: "Por mitades. El art. 1774 del Código Civil divide los gananciales en partes iguales, sin considerar quién aportó más ingresos durante el matrimonio. Esa es precisamente la lógica del régimen de sociedad conyugal.",
+      },
+      {
+        q: "¿Hay un plazo para liquidar la sociedad conyugal?",
+        a: "No existe un plazo fatal, y la partición puede pedirse mientras dure la comunidad, porque nadie está obligado a permanecer en la indivisión (art. 1317). Pero dejar pasar los años complica la prueba de las recompensas y suele encarecer el resultado.",
+      },
+      {
+        q: "¿Qué pasa con la herencia que recibí durante el matrimonio?",
+        a: "Los bienes adquiridos a título gratuito —herencias, donaciones, legados— son bienes propios y no entran al reparto. Sí puede generarse una recompensa si ese dinero se usó para adquirir o mejorar un bien social, o al revés.",
+      },
+      {
+        q: "¿Necesito abogado para liquidar la sociedad conyugal?",
+        a: "Si hay acuerdo, la liquidación se otorga por escritura pública y conviene que la redacte un abogado para que el inventario, las recompensas y las adjudicaciones queden bien determinados. Si no hay acuerdo, la partición se tramita ante un juez árbitro y la representación letrada es indispensable.",
+      },
+      {
+        q: "¿Qué pasa con las deudas que quedaron?",
+        a: "Las deudas sociales se pagan antes de determinar los gananciales. La mujer, además, cuenta con el beneficio de emolumento del art. 1777: no responde más allá de su mitad de gananciales.",
+      },
+    ],
+    related: ["regimen-de-bienes-matrimonio-chile", "divorcio-en-chile", "bien-familiar-que-pasa-con-la-casa-en-el-divorcio"],
+    sources: [
+      { name: "Código Civil, Libro IV, Título XXII (sociedad conyugal) — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=172986" },
+      { name: "Ley 19.947 de Matrimonio Civil — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=225128" },
+      { name: "Ley Fácil: Divorcio — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil/recurso/divorcio" },
+    ],
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {
