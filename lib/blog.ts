@@ -2202,6 +2202,157 @@ export const posts: Post[] = [
       { name: "Ley Fácil: Divorcio — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil/recurso/divorcio" },
     ],
   },
+  // ───────────────────────────── DIVORCIO POR CULPA ─────────────────────────────
+  {
+    slug: "divorcio-por-culpa-chile-causales-y-efectos",
+    title:
+      "Divorcio por culpa en Chile: causales, cómo se prueba y qué efectos tiene",
+    metaTitle: "Divorcio por culpa en Chile: causales, prueba y efectos",
+    description:
+      "El divorcio por culpa del art. 54 de la Ley 19.947 no exige plazo de cese de convivencia. Qué conductas lo permiten, quién puede demandarlo, cómo se prueba y por qué puede hacer perder o reducir la compensación económica.",
+    category: "Divorcio",
+    datePublished: "2026-09-17",
+    dateModified: "2026-09-17",
+    readingMinutes: 7,
+    keywords: [
+      "divorcio por culpa Chile",
+      "causales divorcio por culpa",
+      "artículo 54 Ley 19.947",
+      "divorcio culposo compensación económica",
+      "cómo probar divorcio por culpa",
+    ],
+    lead:
+      "El **divorcio por culpa** permite terminar el matrimonio **sin esperar ningún plazo de cese de la convivencia**, cuando el otro cónyuge incurrió en una **violación grave de los deberes del matrimonio o de los deberes para con los hijos** que haga intolerable la vida en común (art. 54 de la Ley 19.947). Solo puede demandarlo el cónyuge **que no dio lugar a la causal**, y exige **probar** los hechos ante el tribunal de familia. Su efecto práctico más relevante es económico: el juez puede **denegar o rebajar la compensación económica** que le habría correspondido al cónyuge culpable (art. 62).",
+    stats: [
+      { label: "Norma", value: "Art. 54 de la Ley 19.947 de Matrimonio Civil" },
+      { label: "Plazo de cese exigido", value: "Ninguno" },
+      { label: "Quién puede demandar", value: "Solo el cónyuge que no dio lugar a la causal (art. 56)" },
+      { label: "Efecto en la compensación", value: "El juez puede denegarla o disminuirla al culpable (art. 62 inc. 2°)" },
+      { label: "Tribunal competente", value: "Juzgado de Familia (Ley 19.968)" },
+    ],
+    blocks: [
+      { t: "h2", x: "Qué es el divorcio por culpa y en qué se diferencia de los otros" },
+      {
+        t: "p",
+        x: "La Ley 19.947 contempla tres caminos para divorciarse. El de **mutuo acuerdo** exige un año de cese de la convivencia; el **unilateral**, tres años; y el **divorcio por culpa** no exige plazo alguno, porque su fundamento no es el paso del tiempo sino una **conducta grave** de uno de los cónyuges. Si quieres comparar las tres vías, revisa la guía general de [divorcio en Chile](/blog/divorcio-en-chile).",
+      },
+      {
+        t: "p",
+        x: "La contrapartida es clara: en vez de acreditar una fecha de separación, hay que **probar la falta**. Por eso es un juicio más contencioso, más largo y, en general, más caro que un divorcio de común acuerdo.",
+      },
+      { t: "h2", x: "Las causales del artículo 54" },
+      {
+        t: "p",
+        x: "La regla general es amplia: procede por **falta imputable al otro cónyuge** que constituya una violación grave de los deberes y obligaciones que impone el matrimonio, o de los deberes para con los hijos, **que torne intolerable la vida en común**. La ley agrega que se incurre en esa causal, **entre otros casos**, cuando ocurre alguno de estos hechos:",
+      },
+      {
+        t: "ul",
+        x: [
+          "**Atentado contra la vida o malos tratamientos graves** contra la integridad física o psíquica del cónyuge o de alguno de los hijos.",
+          "**Transgresión grave y reiterada de los deberes de convivencia, socorro y fidelidad**. La ley señala expresamente que el **abandono continuo o reiterado del hogar común** es una forma de transgresión grave.",
+          "**Condena ejecutoriada** por ciertos crímenes o simples delitos contra el orden de las familias, la moralidad pública o las personas, que involucre una grave ruptura de la armonía conyugal.",
+          "**Alcoholismo o drogadicción** que constituya un impedimento grave para la convivencia armoniosa entre los cónyuges o entre estos y los hijos.",
+          "**Tentativa para prostituir** al otro cónyuge o a los hijos.",
+        ],
+      },
+      {
+        t: "note",
+        x: "La enumeración no es taxativa: son ejemplos. Pero cualquier otra conducta que se invoque debe cumplir los dos requisitos de fondo —**gravedad** e **intolerabilidad de la vida en común**—, y el tribunal los analiza caso a caso.",
+      },
+      { t: "h2", x: "Quién puede demandar y cuándo" },
+      {
+        t: "p",
+        x: "La acción de divorcio pertenece exclusivamente a los cónyuges, y en el divorcio por culpa la titularidad corresponde **solo al cónyuge que no dio lugar a la causal** (art. 56). Quien cometió la falta no puede invocar su propia conducta para divorciarse; si quiere terminar el matrimonio, tendrá que usar el divorcio unilateral por cese de convivencia. Además, la acción de divorcio es **irrenunciable** (art. 57): ningún acuerdo previo puede impedir demandarlo.",
+      },
+      { t: "h2", x: "Cómo se prueba la culpa" },
+      {
+        t: "p",
+        x: "Aquí se gana o se pierde el juicio. El tribunal de familia exige acreditar tanto los **hechos** como su **gravedad**, y los medios de prueba habituales son:",
+      },
+      {
+        t: "ul",
+        x: [
+          "**Sentencias o causas previas**: una condena o una causa por violencia intrafamiliar, o medidas cautelares decretadas, son antecedentes de peso. Si hay agresiones, revisa primero cómo [pedir medidas de protección por violencia intrafamiliar](/blog/violencia-intrafamiliar-medidas-proteccion).",
+          "**Testigos**: familiares, vecinos o amigos que presenciaron los hechos o el abandono del hogar.",
+          "**Documentos**: informes médicos o psicológicos, constancias en Carabineros, mensajes y correos (obtenidos lícitamente).",
+          "**Pericias**: por ejemplo, evaluaciones psicológicas o informes sobre consumo problemático de alcohol o drogas.",
+        ],
+      },
+      {
+        t: "p",
+        x: "Un error frecuente es demandar por culpa con prueba débil. Si el tribunal no da por acreditada la causal, la demanda se rechaza, y el tiempo y los costos invertidos se pierden. Por eso, antes de elegir esta vía, conviene evaluar si ya existe el plazo para un divorcio unilateral o de mutuo acuerdo.",
+      },
+      { t: "h2", x: "El efecto económico: la compensación puede perderse o reducirse" },
+      {
+        t: "p",
+        x: "El divorcio por culpa tiene consecuencias que van más allá de terminar el vínculo. La más importante está en el art. 62 inciso 2° de la Ley 19.947: si el divorcio se decreta por culpa, el juez **puede denegar la compensación económica** que habría correspondido al cónyuge que dio lugar a la causal, **o disminuir prudencialmente su monto**.",
+      },
+      {
+        t: "p",
+        x: "Esto importa, por ejemplo, cuando el cónyuge que se dedicó al hogar y a los hijos es también el que cometió la falta: podría ver reducida o negada una compensación que, en un divorcio por cese de convivencia, sí habría recibido. Para entender los criterios del art. 62 revisa [cómo se calcula la compensación económica](/blog/compensacion-economica-divorcio-como-se-calcula), y si necesitas dimensionar la cifra en juego, esta guía explica [cuánto podría significar en dinero la compensación económica](https://www.cuantojuicio.cl/blog/compensacion-economica-divorcio) según la situación de cada cónyuge.",
+      },
+      {
+        t: "note",
+        x: "El divorcio por culpa **no altera** los derechos de los hijos: la pensión de alimentos, el cuidado personal y la relación directa y regular se resuelven según el interés superior del niño, no como castigo al cónyuge culpable.",
+      },
+      { t: "h2", x: "Cómo es el procedimiento" },
+      {
+        t: "ol",
+        x: [
+          "**Demanda ante el Juzgado de Familia**: se exponen los hechos que configuran la causal y se ofrecen los medios de prueba.",
+          "**Audiencia preparatoria**: el juez debe instar a las partes a una conciliación (art. 67) y fija los hechos a probar y la prueba que se rendirá.",
+          "**Audiencia de juicio**: se rinden testigos, documentos y pericias.",
+          "**Sentencia**: si se acoge, se decreta el divorcio y se resuelven las materias conexas, como la compensación económica solicitada.",
+          "**Subinscripción**: la sentencia ejecutoriada debe subinscribirse al margen de la inscripción de matrimonio en el Registro Civil para ser oponible a terceros.",
+        ],
+      },
+      {
+        t: "table",
+        head: ["Vía de divorcio", "Plazo de cese", "Qué hay que probar"],
+        rows: [
+          ["Mutuo acuerdo", "1 año", "Cese de convivencia y acuerdo completo y suficiente"],
+          ["Unilateral", "3 años", "Cese de convivencia (y cumplimiento de alimentos)"],
+          ["Por culpa", "Ninguno", "Falta grave imputable al otro que haga intolerable la vida en común"],
+        ],
+      },
+      { t: "h2", x: "Cuándo conviene y cuándo no" },
+      {
+        t: "ul",
+        x: [
+          "**Conviene** cuando hay hechos graves y bien documentados y no se quiere esperar uno o tres años de cese de convivencia.",
+          "**Conviene evaluarlo** cuando el cónyuge que cometió la falta pretende cobrar compensación económica.",
+          "**No suele convenir** cuando la prueba es débil o cuando ya se cumple el plazo de un divorcio por cese: el resultado es el mismo en cuanto al vínculo, con menos desgaste.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        q: "¿El divorcio por culpa exige tiempo de separación?",
+        a: "No. A diferencia del divorcio de mutuo acuerdo (1 año de cese) y del unilateral (3 años), el divorcio por culpa del art. 54 de la Ley 19.947 no exige plazo de cese de la convivencia. Lo que exige es probar la falta grave.",
+      },
+      {
+        q: "¿La infidelidad es causal de divorcio por culpa?",
+        a: "Puede serlo. La ley menciona la transgresión grave y reiterada del deber de fidelidad. Pero no basta afirmarla: hay que probarla y acreditar que es grave y que torna intolerable la vida en común.",
+      },
+      {
+        q: "¿Puede demandar el cónyuge que cometió la falta?",
+        a: "No por esta vía. El art. 56 reserva el divorcio por culpa al cónyuge que no dio lugar a la causal. El otro puede recurrir al divorcio unilateral una vez cumplidos los 3 años de cese de la convivencia.",
+      },
+      {
+        q: "¿El culpable pierde la compensación económica?",
+        a: "No de forma automática. El art. 62 inciso 2° faculta al juez para denegarla o disminuirla prudencialmente; es una decisión que se toma según las circunstancias del caso.",
+      },
+      {
+        q: "¿El divorcio por culpa afecta la pensión de alimentos de los hijos?",
+        a: "No. Los alimentos, el cuidado personal y la relación directa y regular de los hijos se deciden según su interés superior, con independencia de cuál de los padres dio lugar al divorcio.",
+      },
+    ],
+    related: ["divorcio-en-chile", "compensacion-economica-divorcio-como-se-calcula", "violencia-intrafamiliar-medidas-proteccion"],
+    sources: [
+      { name: "Ley 19.947 de Matrimonio Civil — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=225128" },
+      { name: "Ley Fácil: Divorcio — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil/recurso/divorcio" },
+    ],
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {
