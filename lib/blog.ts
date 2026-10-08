@@ -2353,6 +2353,167 @@ export const posts: Post[] = [
       { name: "Ley Fácil: Divorcio — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil/recurso/divorcio" },
     ],
   },
+  // ───────────────────────── HERENCIA DEL CÓNYUGE SOBREVIVIENTE ─────────────────────────
+  {
+    slug: "herencia-conyuge-sobreviviente-cuanto-hereda-y-la-casa",
+    title:
+      "Herencia del cónyuge sobreviviente en Chile: cuánto le corresponde y qué pasa con la casa",
+    metaTitle: "Herencia del cónyuge sobreviviente en Chile: cuánto hereda y la casa",
+    description:
+      "Cuánto hereda el viudo o la viuda en Chile según el Código Civil: el doble que cada hijo, el mínimo de una cuarta parte, qué pasa si no hay hijos y cómo funciona el derecho de adjudicación preferente de la vivienda familiar.",
+    category: "Herencia y familia",
+    datePublished: "2026-10-08",
+    dateModified: "2026-10-08",
+    readingMinutes: 8,
+    keywords: [
+      "herencia cónyuge sobreviviente",
+      "cuánto hereda la viuda en Chile",
+      "derecho de adjudicación preferente vivienda familiar",
+      "herencia entre cónyuge e hijos",
+      "conviviente civil herencia",
+    ],
+    lead:
+      "En Chile el **cónyuge sobreviviente es heredero y legitimario**: no puede ser excluido de la herencia. Si concurre con hijos, recibe **el doble de lo que corresponde a cada hijo** (o lo mismo, si hay un solo hijo) y **nunca menos de una cuarta parte** (art. 988 del Código Civil). Si no hay descendientes, comparte con los ascendientes del fallecido llevándose **dos tercios**, y si tampoco hay ascendientes, hereda todo (art. 989). Además tiene un **derecho de adjudicación preferente** sobre la vivienda familiar (art. 1337 regla 10ª). Y si estaban casados en sociedad conyugal, antes de la herencia retira su **mitad de gananciales**, que no es herencia sino un derecho propio.",
+    stats: [
+      { label: "Con dos o más hijos", value: "El doble de lo que recibe cada hijo (art. 988 del Código Civil)" },
+      { label: "Con un solo hijo", value: "Una cuota igual a la del hijo (art. 988)" },
+      { label: "Mínimo garantizado", value: "Una cuarta parte de la herencia o de la mitad legitimaria (art. 988)" },
+      { label: "Sin hijos, con ascendientes", value: "Dos tercios para el cónyuge y un tercio para los ascendientes (art. 989)" },
+      { label: "Vivienda familiar", value: "Adjudicación preferente o derecho de habitación gratuito y vitalicio (art. 1337 regla 10ª)" },
+    ],
+    blocks: [
+      { t: "h2", x: "Primero los gananciales, después la herencia" },
+      {
+        t: "p",
+        x: "El error más habitual al calcular lo que recibe el viudo o la viuda es mezclar dos cosas distintas. Si el matrimonio estaba regido por **sociedad conyugal**, la muerte de uno de los cónyuges la disuelve (art. 1764 del Código Civil), y lo primero que corresponde es liquidarla: la **mitad de los gananciales** pertenece al sobreviviente por derecho propio. Solo la **otra mitad**, más los bienes propios del fallecido, forma la herencia que se reparte entre los herederos.",
+      },
+      {
+        t: "p",
+        x: "En otras palabras: sobre una casa comprada durante el matrimonio en sociedad conyugal, el cónyuge sobreviviente ya es dueño de la mitad, y **además** hereda una parte de la mitad del difunto. En separación total de bienes no hay gananciales que retirar, y en participación en los gananciales se calcula un crédito entre los patrimonios. Si no tienes claro cuál era tu régimen, revisa la guía de [régimen de bienes del matrimonio](/blog/regimen-de-bienes-matrimonio-chile); el mecanismo de reparto está explicado en [liquidación de la sociedad conyugal](/blog/liquidacion-sociedad-conyugal-como-se-reparten-los-bienes).",
+      },
+      { t: "h2", x: "Cuánto hereda el cónyuge sobreviviente si no hay testamento" },
+      {
+        t: "p",
+        x: "Cuando la persona muere sin testamento se aplican los **órdenes de sucesión** del Código Civil. El cónyuge sobreviviente está presente en los dos primeros:",
+      },
+      {
+        t: "ul",
+        x: [
+          "**Con hijos (art. 988)**: los hijos excluyen a todos los demás herederos, salvo al cónyuge. Este recibe **el doble** de lo que corresponde a cada hijo. Si hay **un solo hijo**, la cuota del cónyuge es **igual** a la del hijo.",
+          "**Mínimo de una cuarta parte (art. 988)**: en ningún caso la porción del cónyuge baja de la cuarta parte de la herencia, o de la cuarta parte de la mitad legitimaria en su caso. Esta regla opera cuando los hijos son muchos y la cuenta del doble daría menos que eso.",
+          "**Sin hijos, con ascendientes (art. 989)**: la herencia se divide en tres partes, **dos para el cónyuge** y una para los ascendientes de grado más próximo (normalmente los padres del fallecido).",
+          "**Sin hijos ni ascendientes (art. 989)**: el cónyuge sobreviviente lleva **toda la herencia**. Los hermanos del difunto no concurren con él.",
+        ],
+      },
+      {
+        t: "table",
+        head: ["Quiénes sobreviven", "Parte del cónyuge", "Parte de los demás"],
+        rows: [
+          ["Cónyuge y un hijo", "La mitad", "La mitad para el hijo"],
+          ["Cónyuge y dos hijos", "La mitad (dos cuartos)", "Un cuarto para cada hijo"],
+          ["Cónyuge y tres hijos", "Dos quintos", "Un quinto para cada hijo"],
+          ["Cónyuge y padres del fallecido, sin hijos", "Dos tercios", "Un tercio para los ascendientes"],
+          ["Solo cónyuge, sin hijos ni ascendientes", "Toda la herencia", "—"],
+        ],
+      },
+      {
+        t: "note",
+        x: "Las fracciones de la tabla resultan de aplicar directamente la regla del art. 988 (el cónyuge cuenta como dos hijos) y se calculan sobre la **herencia**, no sobre el total de los bienes del matrimonio: los gananciales del sobreviviente se retiran antes.",
+      },
+      { t: "h2", x: "¿Y si hay testamento?" },
+      {
+        t: "p",
+        x: "El testamento no permite dejar fuera al cónyuge. El art. 1182 del Código Civil lo declara **legitimario**, junto con los hijos y los ascendientes, de modo que tiene asegurada su parte en la **mitad legitimaria** de la herencia. La otra mitad se divide en la **cuarta de mejoras**, que el testador puede asignar a su cónyuge, descendientes o ascendientes (art. 1195), y la **cuarta de libre disposición**. Por eso un testamento bien hecho puede, dentro de la ley, **mejorar** la posición del cónyuge sobreviviente, pero no eliminarla.",
+      },
+      { t: "h2", x: "La casa: el derecho de adjudicación preferente" },
+      {
+        t: "p",
+        x: "Heredar una cuota no garantiza quedarse con la casa: los herederos son comuneros y cualquiera puede pedir la partición. Para evitar que el viudo o la viuda termine fuera de su hogar, el **art. 1337 regla 10ª** del Código Civil le da un derecho especial:",
+      },
+      {
+        t: "ul",
+        x: [
+          "Puede pedir que su cuota hereditaria se le entere **con preferencia** mediante la adjudicación del **inmueble en que reside y que sea o haya sido la vivienda principal de la familia**, y del **mobiliario que lo guarnece**, siempre que formen parte del patrimonio del difunto.",
+          "Si el valor de esos bienes **excede su cuota**, puede pedir que sobre lo que no se le adjudique en propiedad se constituya a su favor un **derecho de habitación y de uso, gratuito y vitalicio**.",
+          "El derecho de habitación **no es oponible a terceros** mientras la resolución que lo constituye no se inscriba en el Conservador de Bienes Raíces.",
+          "Es un derecho **personalísimo**: no puede transferirse ni transmitirse.",
+        ],
+      },
+      {
+        t: "p",
+        x: "Este derecho se hace valer **en la partición**, sea que se haga de común acuerdo o ante un juez partidor. En la práctica es una herramienta de negociación muy potente frente a hijos de una relación anterior u otros herederos que quieren vender de inmediato.",
+      },
+      { t: "h2", x: "Cuando los demás herederos quieren vender (o no quieren)" },
+      {
+        t: "p",
+        x: "Tras la muerte, todos los herederos pasan a ser dueños en común de los bienes, y ninguno puede vender solo. Los conflictos típicos van en ambos sentidos: los hijos presionan por vender la casa en que vive el cónyuge sobreviviente, o es uno de los herederos el que bloquea cualquier venta mientras los demás necesitan liquidez. En el primer caso la respuesta es la adjudicación preferente; en el segundo, conviene conocer [qué hacer cuando un heredero no quiere vender la propiedad](https://www.resuelvepropiedades.cl/blog/heredero-no-quiere-vender/), porque la ley no obliga a nadie a permanecer en la indivisión (art. 1317) y existen salidas distintas de un juicio largo.",
+      },
+      { t: "h2", x: "Quién no hereda como cónyuge" },
+      {
+        t: "ul",
+        x: [
+          "**El divorciado**: el divorcio pone fin a los derechos sucesorios recíprocos (art. 60 de la Ley 19.947). Estar separados de hecho, en cambio, **no** hace perder la herencia: mientras no haya divorcio, el vínculo subsiste.",
+          "**El separado judicialmente por su culpa**: el cónyuge que dio motivo a la separación judicial por su culpa no tiene parte en la herencia intestada del otro (art. 994 del Código Civil).",
+          "**El conviviente de hecho**: quien convivió sin matrimonio ni acuerdo de unión civil no es heredero. Solo puede recibir bienes por testamento, con cargo a la parte de libre disposición.",
+        ],
+      },
+      {
+        t: "note",
+        x: "El **conviviente civil** sí hereda. La Ley 20.830 sobre Acuerdo de Unión Civil le reconoce la calidad de heredero intestado y legitimario, con los mismos derechos que el cónyuge sobreviviente (art. 16), y le extiende el derecho de adjudicación preferente de la vivienda familiar (art. 19), siempre que el acuerdo esté vigente al momento de la muerte.",
+      },
+      { t: "h2", x: "Pasos prácticos para el cónyuge sobreviviente" },
+      {
+        t: "ol",
+        x: [
+          "**Reunir los antecedentes**: certificado de defunción y de matrimonio (donde consta el régimen de bienes), y los títulos de los inmuebles, vehículos y cuentas.",
+          "**Tramitar la posesión efectiva**: si no hay testamento, se solicita ante el Registro Civil conforme a la Ley 19.903; si lo hay, ante el tribunal civil. Sin ella los herederos no pueden disponer de los bienes.",
+          "**Inscribir los inmuebles**: la inscripción especial de herencia en el Conservador de Bienes Raíces deja la propiedad a nombre de la sucesión.",
+          "**Liquidar la sociedad conyugal y partir la herencia**: es el momento de separar los gananciales e **invocar la adjudicación preferente** de la vivienda familiar.",
+          "**Inscribir lo adjudicado**, incluido el derecho de habitación si se constituyó, para que sea oponible a terceros.",
+        ],
+      },
+      {
+        t: "p",
+        x: "Si además hay hijos menores de edad del fallecido, la herencia convive con otras materias de familia que no se resuelven solas, como el [cuidado personal de los hijos](/blog/cuidado-personal-de-los-hijos). Conviene mirar el cuadro completo antes de firmar cualquier acuerdo entre herederos.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Cuánto hereda la viuda o el viudo si hay hijos?",
+        a: "El doble de lo que corresponde a cada hijo; si hay un solo hijo, una cuota igual a la de este. En ningún caso su porción baja de la cuarta parte de la herencia o de la mitad legitimaria, según el art. 988 del Código Civil.",
+      },
+      {
+        q: "¿Los gananciales son parte de la herencia?",
+        a: "No. Si había sociedad conyugal, la mitad de los gananciales pertenece al cónyuge sobreviviente por derecho propio y se retira antes de repartir. La herencia se calcula sobre la mitad del fallecido y sus bienes propios.",
+      },
+      {
+        q: "¿Pueden los hijos obligar al cónyuge sobreviviente a dejar la casa?",
+        a: "El cónyuge sobreviviente puede pedir en la partición que se le adjudique con preferencia la vivienda familiar en que reside y su mobiliario. Si el valor excede su cuota, puede pedir un derecho de habitación y uso gratuito y vitalicio sobre el resto (art. 1337 regla 10ª del Código Civil).",
+      },
+      {
+        q: "¿Hereda el cónyuge si estaban separados de hecho?",
+        a: "Sí. La separación de hecho no extingue el matrimonio ni los derechos hereditarios. Estos se pierden con el divorcio (art. 60 de la Ley 19.947) o cuando hubo separación judicial por culpa del sobreviviente (art. 994 del Código Civil).",
+      },
+      {
+        q: "¿Se puede dejar al cónyuge sin herencia por testamento?",
+        a: "No. El cónyuge sobreviviente es legitimario (art. 1182 del Código Civil), por lo que tiene asegurada su parte en la mitad legitimaria. El testamento sí puede mejorarlo, asignándole la cuarta de mejoras o la de libre disposición.",
+      },
+      {
+        q: "¿El conviviente hereda igual que el cónyuge?",
+        a: "Solo el conviviente civil, es decir, quien celebró un acuerdo de unión civil vigente al momento de la muerte: la Ley 20.830 le da los mismos derechos hereditarios que al cónyuge. El conviviente de hecho no es heredero y solo puede recibir bienes por testamento.",
+      },
+    ],
+    related: [
+      "regimen-de-bienes-matrimonio-chile",
+      "liquidacion-sociedad-conyugal-como-se-reparten-los-bienes",
+      "bien-familiar-que-pasa-con-la-casa-en-el-divorcio",
+    ],
+    sources: [
+      { name: "Código Civil, Libro III (sucesión por causa de muerte) — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=172986" },
+      { name: "Ley 20.830 que crea el Acuerdo de Unión Civil — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=1075210" },
+      { name: "Ley 19.947 de Matrimonio Civil — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=225128" },
+    ],
+  },
 ];
 
 export function getPost(slug: string): Post | undefined {
