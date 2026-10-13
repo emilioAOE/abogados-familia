@@ -1022,14 +1022,16 @@ export const posts: Post[] = [
       "Cuánto cuesta divorciarse en Chile: el tribunal no cobra, el costo real son los honorarios del abogado (más bajos en mutuo acuerdo que en uno controvertido). Cómo divorciarse gratis con la CAJ y qué gastos esperar.",
     category: "Divorcio",
     datePublished: "2026-06-18",
-    dateModified: "2026-06-18",
-    readingMinutes: 7,
+    dateModified: "2026-10-13",
+    readingMinutes: 10,
     keywords: [
       "cuánto cuesta un divorcio en chile",
       "precio divorcio chile",
       "honorarios abogado divorcio",
       "divorcio gratis chile",
       "costo divorcio de mutuo acuerdo",
+      "quién paga el divorcio",
+      "divorcio con un solo abogado",
     ],
     lead:
       "El **Tribunal de Familia no cobra** por tramitar un divorcio: en Chile la justicia de familia es gratuita. El costo real son los **honorarios del abogado**, que son **más bajos en un divorcio de mutuo acuerdo** (rápido y sin controversia) y **más altos en uno unilateral o controvertido** que exige audiencias y prueba. Si no puedes pagar abogado, la **Corporación de Asistencia Judicial (CAJ) tramita el divorcio gratis** con privilegio de pobreza. Desconfía de quien ofrezca un «divorcio exprés sin juicio»: en Chile el divorcio **siempre** pasa por el tribunal.",
@@ -1051,6 +1053,21 @@ export const posts: Post[] = [
         t: "p",
         x: "Como regla general, un **divorcio de mutuo acuerdo** —donde ambos cónyuges están de acuerdo y firman un acuerdo completo y suficiente— es **considerablemente más barato y rápido** que un **divorcio unilateral** o **por culpa**, que exige audiencias, prueba de testigos y a veces peritajes, y por tanto más horas de trabajo del abogado.",
       },
+      { t: "h3", x: "Comparativa: costo y duración según el tipo de divorcio" },
+      {
+        t: "table",
+        head: ["Tipo de divorcio", "Cese de convivencia exigido", "Tramitación", "Duración habitual", "Costo relativo"],
+        rows: [
+          ["Mutuo acuerdo", "1 año", "Solicitud conjunta + acuerdo completo y suficiente; a menudo una sola audiencia", "2 a 4 meses", "El más bajo (un abogado puede representar a ambos)"],
+          ["Unilateral", "3 años", "Demanda, notificación, audiencia preparatoria y de juicio, testigos", "6 meses a 1 año", "Medio a alto"],
+          ["Por culpa", "No exige plazo", "Juicio controvertido: hay que probar la falta grave del otro cónyuge", "1 año o más", "El más alto"],
+          ["Cualquiera, con la CAJ", "El que corresponda al tipo", "Igual tramitación, con abogado de la Corporación", "Similar, según la carga de la oficina", "$0 en honorarios"],
+        ],
+      },
+      {
+        t: "p",
+        x: "El tribunal cuesta lo mismo en todos los casos —**nada**—; lo que cambia es la **cantidad de trabajo profesional**. Por eso el [divorcio por culpa](/blog/divorcio-por-culpa-chile-causales-y-efectos), que obliga a probar la infracción grave del otro cónyuge, es el más largo y el más caro de los tres.",
+      },
       { t: "h2", x: "Los componentes del costo de un divorcio" },
       {
         t: "ul",
@@ -1059,7 +1076,7 @@ export const posts: Post[] = [
           "**Certificados del Registro Civil**: certificado de matrimonio y de nacimiento de los hijos. Muchos se obtienen **gratis en línea** en el sitio del Registro Civil.",
           "**Escritura del acuerdo completo y suficiente** (en el mutuo acuerdo): si se otorga ante notario, tiene el costo de la escritura pública.",
           "**Prueba del cese de convivencia**: si hay que extender un acta o escritura para acreditar la fecha del cese, tiene el costo notarial correspondiente.",
-          "**Liquidación de la sociedad conyugal** (si corresponde): es un trámite aparte; ver [régimen de bienes del matrimonio](/blog/regimen-de-bienes-matrimonio-chile).",
+          "**Liquidación de la sociedad conyugal** (si corresponde): es un trámite aparte, con costo propio; ver [cómo se reparten los bienes en la liquidación](/blog/liquidacion-sociedad-conyugal-como-se-reparten-los-bienes) y el [régimen de bienes del matrimonio](/blog/regimen-de-bienes-matrimonio-chile).",
         ],
       },
       {
@@ -1074,6 +1091,37 @@ export const posts: Post[] = [
       {
         t: "p",
         x: "El **divorcio unilateral** exige **3 años de cese**, audiencia preparatoria y de juicio, prueba de testigos y la posibilidad de que el otro cónyuge se oponga (incluida la **cláusula de dureza** del Art. 55 de la Ley 19.947). Más etapas significa más horas de abogado y, por lo tanto, mayor costo. Suele demorar de **6 meses a 1 año**.",
+      },
+      { t: "h2", x: "¿Quién paga el divorcio?" },
+      {
+        t: "p",
+        x: "Por regla general, **cada cónyuge paga a su propio abogado**. En el **mutuo acuerdo** es habitual que ambos actúen con **un mismo abogado** y se repartan ese honorario —por mitades o como lo acuerden—, lo que explica buena parte del ahorro. En un divorcio **controvertido** cada parte tiene su abogado, y el juez puede **condenar en costas** a quien resulte totalmente vencido, de modo que quien pierde puede terminar asumiendo parte de los gastos del otro.",
+      },
+      {
+        t: "note",
+        x: "Si uno de los cónyuges no tiene ingresos propios, que no pueda pagar no lo deja sin divorcio: puede pedir abogado de la **CAJ** aunque el otro cónyuge tenga abogado particular.",
+      },
+      { t: "h2", x: "Qué puede encarecer un divorcio" },
+      {
+        t: "ul",
+        x: [
+          "**Discutir la compensación económica**: si no hay acuerdo sobre si procede o cuánto, se suma prueba y audiencias. Ver [cómo se calcula la compensación económica](/blog/compensacion-economica-divorcio-como-se-calcula).",
+          "**Materias de los hijos sin resolver**: alimentos, cuidado personal o visitas en disputa exigen [mediación previa](/blog/mediacion-familiar-chile) y alargan el juicio. La mediación licitada por el Estado es **gratuita**; el divorcio en sí no requiere mediación obligatoria.",
+          "**Notificación difícil**: si el otro cónyuge no es ubicable o vive fuera de Chile, la notificación demora y puede requerir gestiones adicionales (por ejemplo, un receptor judicial particular, que cobra su arancel).",
+          "**Peritajes** (sociales, psicológicos o de tasación de bienes) cuando el tribunal o las partes los piden.",
+          "**La vivienda familiar**: si hay que discutir quién se queda con la casa o una declaración de [bien familiar](/blog/bien-familiar-que-pasa-con-la-casa-en-el-divorcio), el asunto se vuelve más complejo.",
+        ],
+      },
+      { t: "h2", x: "Qué preguntar antes de contratar un abogado de divorcio" },
+      {
+        t: "ol",
+        x: [
+          "**¿El honorario es una suma única o por etapas?** En el mutuo acuerdo lo normal es un monto cerrado; en el controvertido, pagos por etapa (demanda, audiencia preparatoria, audiencia de juicio).",
+          "**¿Qué incluye?** Pregunta si cubre la redacción del acuerdo completo y suficiente, la asistencia a todas las audiencias y la **subinscripción de la sentencia** en el Registro Civil.",
+          "**¿Qué queda fuera?** Normalmente la liquidación de bienes, los gastos notariales y los recursos ante la Corte se cobran aparte.",
+          "**¿Qué pasa si el otro cónyuge se opone?** Un mutuo acuerdo que se cae pasa a ser unilateral, con otro costo: conviene saberlo de antemano.",
+          "**Pide el presupuesto por escrito** y compara al menos dos o tres antes de decidir.",
+        ],
       },
       { t: "h2", x: "Cómo divorciarse gratis: la Corporación de Asistencia Judicial" },
       {
@@ -1097,6 +1145,22 @@ export const posts: Post[] = [
     ],
     faq: [
       {
+        q: "¿Quién paga el abogado en un divorcio?",
+        a: "Cada cónyuge paga a su propio abogado. En el divorcio de mutuo acuerdo ambos pueden actuar con un mismo abogado y repartirse el honorario como acuerden. En un divorcio controvertido, el juez puede condenar en costas a la parte totalmente vencida.",
+      },
+      {
+        q: "¿Pueden los dos cónyuges usar el mismo abogado?",
+        a: "Sí, en el divorcio de mutuo acuerdo: como no hay controversia, ambos presentan la solicitud en conjunto con un solo abogado, lo que reduce el costo. En un divorcio unilateral o por culpa cada parte necesita su propio abogado.",
+      },
+      {
+        q: "¿Qué divorcio es más caro: el unilateral o el por culpa?",
+        a: "El divorcio por culpa suele ser el más caro y el más largo, porque hay que probar en juicio la falta grave del otro cónyuge. El unilateral exige 3 años de cese de convivencia y juicio, pero con menos prueba. El más económico es siempre el de mutuo acuerdo.",
+      },
+      {
+        q: "¿Hay que pagar una mediación para divorciarse?",
+        a: "No. El divorcio no exige mediación previa obligatoria. Sí la exigen los alimentos, el cuidado personal y la relación directa y regular si se discuten, y esa mediación es gratuita en los centros licitados por el Estado.",
+      },
+      {
         q: "¿El Tribunal de Familia cobra por el divorcio?",
         a: "No. La justicia de familia en Chile es gratuita: no hay tasas ni aranceles judiciales por tramitar un divorcio. El costo que enfrentas son los honorarios del abogado y algunos certificados, varios de los cuales se obtienen gratis en línea.",
       },
@@ -1117,10 +1181,11 @@ export const posts: Post[] = [
         a: "No. La liquidación de la sociedad conyugal es un trámite distinto del divorcio, con su propio costo (notarial si es de común acuerdo, o judicial con partidor). El divorcio disuelve la sociedad conyugal, pero la repartición de los bienes se hace por separado.",
       },
     ],
-    related: ["divorcio-en-chile", "compensacion-economica-divorcio-como-se-calcula", "regimen-de-bienes-matrimonio-chile"],
+    related: ["divorcio-en-chile", "compensacion-economica-divorcio-como-se-calcula", "liquidacion-sociedad-conyugal-como-se-reparten-los-bienes"],
     sources: [
       { name: "Ley 19.947 de Matrimonio Civil — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idLey=19947" },
       { name: "Ley Fácil: El divorcio — Biblioteca del Congreso Nacional", url: "https://www.bcn.cl/portal/leyfacil/recurso/divorcio" },
+      { name: "Ley 19.968 que crea los Tribunales de Familia — Ley Chile (BCN)", url: "https://www.bcn.cl/leychile/navegar?idNorma=229557" },
       { name: "Corporación de Asistencia Judicial (CAJ)", url: "https://www.cajmetropolitana.gob.cl" },
     ],
   },
